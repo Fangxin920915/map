@@ -42,7 +42,7 @@ export const Primary: Story = {
       <gdu-wmts-basemap
           v-if="show"
           :view-id="viewId"
-          url="http://t{0-7}.tianditu.gov.cn/img_w/wmts?tk=490c03d5e1875b979156869f31651c6f"
+          url="https://t{0-7}.tianditu.gov.cn/img_w/wmts?tk=490c03d5e1875b979156869f31651c6f"
           layer="img"
           tileStyle="default"
           format="tiles"
@@ -52,7 +52,7 @@ export const Primary: Story = {
       <gdu-wmts-basemap
           v-if="show"
           :view-id="viewId"
-          url="http://t{0-7}.tianditu.gov.cn/cia_w/wmts?tk=490c03d5e1875b979156869f31651c6f"
+          url="https://t{0-7}.tianditu.gov.cn/cia_w/wmts?tk=490c03d5e1875b979156869f31651c6f"
           layer="cia"
           tileStyle="default"
           format="tiles"

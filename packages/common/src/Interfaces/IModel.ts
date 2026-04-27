@@ -9,6 +9,10 @@ export enum ModelType {
    * 3dTile模型类型
    */
   TILES = "3D_TILE_MODEL",
+  /**
+   * 点云模型类型（基于3D Tiles的点云数据）
+   */
+  POINT_CLOUD = "POINT_CLOUD_MODEL",
 }
 
 /**
@@ -119,6 +123,25 @@ export interface ModelFeature {
       skipLevels?: number;
       loadSiblings?: boolean;
       immediatelyLoadDesiredLevelOfDetail?: boolean;
+    };
+    /**
+     * 点云渲染属性设置
+     */
+    pointCloudShadingProperties?: {
+      /** 是否启用点云衰减效果，根据距离自动调整点大小 */
+      attenuation?: boolean;
+      /** 几何误差对应的点大小缩放因子 */
+      geometricErrorScale?: number;
+      /** 最大衰减距离（超过此距离后点不再缩小） */
+      maximumAttenuation?: number;
+      /** 基础分辨率（当几何误差为0时使用的点间距） */
+      baseResolution?: number;
+      /** 是否启用Eye Dome Lighting效果，增强点云深度感知 */
+      eyeDomeLighting?: boolean;
+      /** Eye Dome Lighting强度 */
+      eyeDomeLightingStrength?: number;
+      /** Eye Dome Lighting半径 */
+      eyeDomeLightingRadius?: number;
     };
     [key: string]: any;
   };

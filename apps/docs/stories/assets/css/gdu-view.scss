@@ -1,0 +1,31 @@
+.gdu-view-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+}
+
+.gdu-map-modal {
+  pointer-events: none;
+
+  .el-drawer {
+    pointer-events: auto;
+
+    .el-drawer__body {
+      box-sizing: border-box;
+      padding: 0 10px;
+      overflow: auto;
+
+      .el-form {
+        width: 100%;
+        overflow: hidden auto;
+      }
+    }
+
+    .el-slider {
+      .el-slider__input {
+        width: 90px;
+      }
+    }
+  }
+}

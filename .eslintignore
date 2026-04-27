@@ -1,0 +1,11 @@
+# .eslintignore
+node_modules
+dist
+storybook-static
+apps/docs
+
+!.eslintrc.js
+!.stylelintrc.json
+!.prettierrc.js
+!.lintstagedrc.js
+!.commitlintrc.js

@@ -1,0 +1,58 @@
+{
+  "name": "@gdu-gl/map",
+  "version": "0.1.9",
+  "description": "",
+  "keywords": [
+    "vue",
+    "component library"
+  ],
+  "publishConfig": {
+    "registry": "http://118.31.69.113:4873/"
+  },
+  "author": "Gdu",
+  "license": "MIT",
+  "scripts": {
+    "build:package": "vite build --mode package",
+    "build:full": "vite build --mode full",
+    "build:full-min": "vite build --mode full-min",
+    "build": "vue-tsc -p ./tsconfig.build.json --composite false --declaration --emitDeclarationOnly && tsc-alias -p ./tsconfig.build.json && pnpm run build:package"
+  },
+  "main": "./dist/umd/gdu-gl-map.umd.js",
+  "module": "./dist/es/index.mjs",
+  "types": "./dist/es/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/es/index.d.ts",
+      "require": "./dist/umd/gdu-gl-map.umd.js",
+      "import": "./dist/es/index.mjs"
+    },
+    "./components/*": {
+      "import": "./dist/es/components/*/index.mjs",
+      "types": "./dist/es/components/*/index.d.ts",
+      "require": null
+    },
+    "./*": "./dist/es/*"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "peerDependencies": {
+    "cesium": "1.138.0",
+    "vue": ">=3.5.0"
+  },
+  "dependencies": {
+    "@gdu-gl/common": "workspace:^",
+    "@gdu-gl/cesium": "workspace:^",
+    "@gdu-gl/core": "workspace:^",
+    "@turf/turf": "7.2.0",
+    "supercluster": "^8.0.1",
+    "@types/supercluster": "^7.1.3"
+  },
+  "unpkg": "./dist/lib/gdu-gl-map.umd.js",
+  "jsdelivr": "./dist/lib/gdu-gl-map.umd.js",
+  "sideEffects": [
+    "**/*.css"
+  ]
+}

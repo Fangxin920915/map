@@ -1,0 +1,40 @@
+.gdu-gl-route-delete-popup-container {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 3px;
+  font-size: 12px;
+  color: #dadadb;
+  cursor: pointer;
+  background: rgb(23 26 31 / 70%);
+  border: 1px solid rgb(136 136 143 / 20%);
+  border-radius: 3px;
+
+  > span {
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  > i {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 2px;
+    background-image: url("@map/Assets/route-delete-icon.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
+
+  &:not(.active):hover {
+    color: #e14545;
+
+    > i {
+      background-image: url("@map/Assets/route-delete-icon-hover.png");
+    }
+  }
+
+  &.active {
+    background-color: #d91616;
+  }
+}

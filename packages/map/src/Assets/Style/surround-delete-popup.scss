@@ -1,0 +1,115 @@
+.gdu-gl-surround-route-delete-popup-list-container {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 4px;
+  background-color: rgb(23 26 31 / 70%);
+  border: 1px solid rgb(136 136 143 / 20%);
+  border-radius: 3px;
+
+  .gdu-gl-surround-route-delete-popup-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 4px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    color: #dadadb;
+    cursor: pointer;
+    border-radius: 3px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .gdu-gl-surround-route-delete-popup-container-icon {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      > span {
+        font-weight: 500;
+        line-height: 18px;
+      }
+
+      > i {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        margin-right: 2px;
+        background-image: url("@map/Assets/route-delete-icon.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+
+        &.add {
+          background-image: url("@map/Assets/route-add-icon.png");
+        }
+      }
+    }
+
+    &:not(.active):hover {
+      color: #e14545;
+
+      .gdu-gl-surround-route-delete-popup-container-icon {
+        > i {
+          background-image: url("@map/Assets/route-delete-icon-hover.png");
+
+          &.add {
+            background-image: url("@map/Assets/route-add-icon-hover.png");
+          }
+        }
+      }
+    }
+
+    &.active {
+      background-color: #d91616;
+    }
+
+    .gdu-edit-bubble-container {
+      position: absolute;
+      left: calc(100% + 13px); /* 位于父元素右侧 */
+      display: none;
+      flex-direction: row; // 确保水平排列
+      align-items: center; // 保持垂直居中
+      padding: 9px 8px;
+      font-size: 14px;
+      color: #dadadb;
+      white-space: nowrap;
+
+      /* 填充颜色 (背景色) */
+      background-color: rgb(45 45 46 / 80%);
+
+      /* 阴影效果 (直接复制即可) */
+      filter: drop-shadow(0 5px 5px rgb(0 0 0 / 10%))
+        drop-shadow(0 8px 10px rgb(0 0 0 / 6%))
+        drop-shadow(0 3px 14px rgb(0 0 0 / 5%));
+
+      /* 毛玻璃/背景模糊效果 */
+      backdrop-filter: blur(10px);
+
+      /* 兼容 Safari 和旧版 iOS */
+      border-color: rgb(136 136 143 / 20%);
+      border-style: solid; /* Figma 默认是实线，CSS 需要显式声明 */
+      border-width: 1px;
+      border-radius: 6px;
+      opacity: 0;
+      transition: all 1s ease;
+
+      &.active {
+        display: inline-flex;
+        opacity: 1;
+      }
+
+      /* 三角形填充 */
+      &::before {
+        position: absolute;
+        left: -14px; /* 位于气泡左侧 */
+        content: "";
+        border-color: transparent rgb(45 45 46 / 80%) transparent transparent; /* 三角形指向左边 */
+        border-style: solid;
+        border-width: 7px; /* 三角形边框宽度 */
+      }
+    }
+  }
+}

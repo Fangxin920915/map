@@ -1,0 +1,35 @@
+.gdu-edit-popup-container {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 3px 4px;
+  font-size: 12px;
+  color: #dadadb;
+  background-color: #2d2d2ecc;
+  border: 1px solid rgb(136 136 143 / 20%);
+  border-radius: 3px;
+
+  > .edit-turn-point-tip {
+    display: inline-flex;
+    align-items: center;
+
+    > .gdu-self-intersecting-icon {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      margin-right: 4px;
+      background-image: url("@map/Assets/edit-error.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    > .gdu-edit-turn-point-icon {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      margin-right: 4px;
+      background-image: url("@map/Assets/mouse.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}

@@ -1,0 +1,167 @@
+import { Meta, Controls,Canvas } from '@storybook/addon-docs/blocks';
+
+import * as GduElectronicFenceLayer from './GduElectronicFenceLayer.stories';
+
+<Meta of={GduElectronicFenceLayer} />
+
+<Canvas/>
+
+<Controls />
+
+## 示例代码
+
+``` html
+<template>
+      <gdu-map :view-id="viewId" @ready="ready"/>
+      <gdu-marker-layer
+      <gdu-electronic-fence-layer
+          v-if="show"
+          ref="markerLayer"
+          v-bind="args"
+          :view-id="viewId"
+          v-model:select-id="selectId"
+          v-model:data-source="dataSource"
+      />
+      <el-button-group style="position: absolute;z-index: 10;top:10px;left: 10px;">
+        <el-button @click="startDraw(1)">禁飞区(面)</el-button>
+        <el-button @click="startDraw(2)">限高区(面)</el-button>
+        <el-button @click="startDraw(3)">适飞区(面)</el-button>
+        <el-button @click="startDraw(1,true)">禁飞区(圆)</el-button>
+        <el-button @click="startDraw(2,true)">限高区(圆)</el-button>
+        <el-button @click="startDraw(3,true)">适飞区(圆)</el-button>
+      </el-button-group>
+</template>
+
+<script setup lang="ts">
+      import { ref, onMounted } from 'vue';
+      import { uuid } from '@gdu-gl/core';
+      import {
+          GduMap,
+          GduElectronicFenceLayer,
+          GduWmtsBasemap,
+          GduTerrainBasemap
+      } from '@gdu-gl/map';
+
+     const show = ref(false);
+      const viewId = uuid();
+      const selectId = ref("");
+
+      const markerLayer = ref();
+      const dataSource = ref<any[]>([
+        {
+          geometry: {
+            type: "Polygon", // 符合 ElectronicFenceFeatureType 类型
+            coordinates: [
+              [
+                [117.666402505793, 25.719599680067347],
+                [117.66966583868385, 25.719458034369566],
+                [117.669788810582, 25.717087126310275],
+                [117.6671894357701, 25.717139341705895],
+                [117.666402505793, 25.719599680067347],
+              ],
+            ], // 符合 Coordinates 类型
+          },
+          properties: {
+            id: "6c2870d4-9ead-4488-bab0-0a3e7b183015", // string 类型
+            options: {
+              type: ElectronicFenceType.APPROPRIATE_FLY,
+              name: "适飞区",
+              disabled: true,
+            },
+          },
+        },
+        {
+          geometry: {
+            type: "Circle", // 符合 ElectronicFenceFeatureType 类型
+            coordinates: [117.65426008428608, 25.718309396735393, 0], // 符合 Coordinates 类型
+            radius: 0.34389989044641683, // 圆类型必填 radius
+          },
+          properties: {
+            id: "89089718-84df-4ad6-8f64-65306476c88b",
+            options: {
+              type: ElectronicFenceType.APPROPRIATE_FLY,
+              name: "适飞区",
+            },
+          },
+        },
+        // 其他两个对象按照同样的方式转换...
+        {
+          geometry: {
+            type: "Polygon",
+            coordinates: [
+              [
+                [117.68586758770542, 25.731207808738503],
+                [117.71925143198402, 25.736029830765048],
+                [117.72416447687259, 25.715999636456782],
+                [117.69538646107267, 25.709274492330206],
+                [117.68586758770542, 25.731207808738503],
+              ],
+            ],
+          },
+          properties: {
+            id: "29ce05fd-1a59-482f-9a09-c2216444c402",
+            options: {
+              type: ElectronicFenceType.HEIGHT_LIMIT,
+              name: "高度限制",
+            },
+          },
+        },
+        {
+          geometry: {
+            type: "Polygon",
+            coordinates: [
+              [
+                [117.61303940353882, 25.717727475388397],
+                [117.63606134543375, 25.72777532557219],
+                [117.64357665143264, 25.710775281640693],
+                [117.61547539643287, 25.70485148063935],
+                [117.61303940353882, 25.717727475388397],
+              ],
+            ],
+          },
+          properties: {
+            id: "8c73d946-3e26-4620-bb5f-994965c30b77",
+            options: {
+              type: ElectronicFenceType.NO_FLY,
+              name: "禁飞区",
+            },
+          },
+        },
+      ]);
+      function ready() {
+        show.value = true;
+      }
+
+     /**
+      * 开始绘制电子围栏
+      * @param type 电子围栏类型
+      * @param drawCircle 是否绘制圆
+      */
+      function startDraw(type: ElectronicFenceType, drawCircle?: boolean) {
+        markerLayer.value.startDraw(type, drawCircle);
+      }
+</script>
+```
+
+## dataSource数据注解
+
+``` javascript
+[
+    {
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [...]
+        },
+        "properties": {
+            "id": "1325fbad-ff65-4882-824f-521eae247d46", // 电子围栏唯一标识
+            "options": {
+              type: ElectronicFenceType.HEIGHT_LIMIT, // 电子围栏类型,ElectronicFenceType.NO_FLY:禁飞区;ElectronicFenceType.HEIGHT_LIMIT:限高区;ElectronicFenceType.APPROPRIATE_FLY:适飞区;
+              name: "高度限制", // 电子围栏描述
+                height:0,
+              visible: true; // 电子围栏是否可见
+              disabled: false; // 电子围栏是否禁用
+            }
+        }
+    },
+]
+```

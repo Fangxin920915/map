@@ -1,0 +1,51 @@
+.gdu-reference-point-cursor {
+  cursor:
+    url("@map/Assets/mouse-reference-point.png") 18 18,
+    auto;
+}
+
+.gdu-draw-point-cursor {
+  cursor:
+    url("@map/Assets/draw-point-cursor.png") 15.2 15.2,
+    auto;
+}
+
+.gdu-draw-line-cursor {
+  cursor:
+    url("@map/Assets/draw-line-cursor.png") 15.2 15.2,
+    auto;
+}
+
+.gdu-draw-circle-cursor {
+  cursor:
+    url("@map/Assets/draw-circle-cursor.png") 15.2 15.2,
+    auto;
+}
+
+.gdu-drag-horizontal-cursor {
+  cursor:
+    url("@map/Assets/drag-horizontal-cursor.png") 15.2 15.2,
+    auto;
+}
+
+.gdu-drag-vertical-cursor {
+  cursor:
+    url("@map/Assets/drag-vertical-cursor.png") 15.2 15.2,
+    auto;
+}
+
+.gdu-draw-area-cursor {
+  cursor:
+    url("@map/Assets/draw-area-cursor.png") 15.2 15.2,
+    auto;
+}
+
+.gdu-draw-select-cursor {
+  cursor:
+    url("@map/Assets/draw-select-cursor.png") 5 0,
+    auto;
+}
+
+.gdu-draw-hover-feature-cursor {
+  cursor: pointer;
+}

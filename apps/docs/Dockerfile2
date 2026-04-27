@@ -1,0 +1,36 @@
+# 第1阶段：构建storybook（命名为builder，方便后续引用）
+FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/guergeiro/pnpm:22-10-alpine AS builder
+
+# 核心修复：设置CI环境变量，解决pnpm无TTY交互报错（全局生效）
+ENV CI=true
+# 简化命令：WORKDIR可自动创建不存在的目录，无需单独RUN mkdir
+WORKDIR /home/workspace
+
+# 复制项目依赖配置文件（先复制这些，利用Docker缓存，后续依赖不变则无需重新安装）
+COPY package.json ./
+COPY apps/docs/package.json ./apps/docs/
+
+# 配置pnpm缓存并安装依赖（保留缓存，提升后续构建速度）
+RUN --mount=type=cache,id=pnpm-store,target=/root/.local/share/pnpm/store \
+  pnpm config set store-dir /root/.local/share/pnpm/store && \
+  pnpm install --prefer-offline
+
+# 复制整个项目代码（依赖安装完再复制代码，最大化利用Docker缓存）
+COPY . .
+
+# 修复目录切换失效：用&&拼接命令，保证在docs目录执行构建（Docker的RUN是独立层，单独cd不生效）
+RUN cd /home/workspace/apps/docs && pnpm build:storybook
+
+# 第2阶段：Nginx运行（轻量镜像，仅保留运行所需文件）
+FROM jfrog.gdu-tech.com/gdu-docker-test/nginx:1.25.2-alpine-slim
+
+# 从builder阶段复制构建好的静态文件到Nginx工作目录
+COPY --from=builder /home/workspace/apps/docs/storybook-static/ /app/
+# 复制自定义Nginx配置（路径基于构建上下文，项目根目录→apps/docs/nginx.conf）
+COPY ./apps/docs/nginx.conf /etc/nginx/nginx.conf
+
+# 暴露Nginx默认端口
+EXPOSE 80
+
+# 前台启动Nginx（Docker容器必须前台运行，否则会立即退出）
+CMD ["nginx", "-g", "daemon off;"]

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "build:modules": {
+      "dependsOn": ["@gdu-gl/map#build"],
+      "outputs": ["dist/**"],
+      "outputLogs": "new-only"
+    },
+    "@gdu-gl/common#build": {
+      "inputs": ["src/**"],
+      "outputs": ["dist/**"],
+      "outputLogs": "new-only"
+    },
+    "@gdu-gl/cesium#build": {
+      "dependsOn": ["@gdu-gl/common#build"],
+      "inputs": ["src/**"],
+      "outputs": ["dist/**"],
+      "outputLogs": "new-only"
+    },
+    "@gdu-gl/core#build": {
+      "outputs": ["dist/**"],
+      "inputs": ["src/**"],
+      "dependsOn": ["@gdu-gl/cesium#build"],
+      "outputLogs": "new-only"
+    },
+    "@gdu-gl/map#build": {
+      "outputs": ["dist/**"],
+      "inputs": ["src/**"],
+      "dependsOn": ["@gdu-gl/core#build"],
+      "outputLogs": "new-only"
+    }
+  }
+}

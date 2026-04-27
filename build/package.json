@@ -1,0 +1,24 @@
+{
+  "name": "@gdu-gl/build",
+  "private": true,
+  "scripts": {
+    "test": "echo test"
+  },
+  "peerDependencies": {
+    "vite": ">=3.0.0",
+    "vue": ">=3.3"
+  },
+  "peerDependenciesMeta": {
+    "vue": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.3",
+    "rollup-plugin-visualizer": "5.14.0",
+    "terser": "5.44.1",
+    "type-fest": "4.32.0",
+    "typescript": "5.7.3",
+    "vite-plugin-lib-inject-css": "^2.2.2"
+  }
+}

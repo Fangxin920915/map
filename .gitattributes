@@ -1,0 +1,2 @@
+# .gitattributes 文件
+*.json text eol=CRLF

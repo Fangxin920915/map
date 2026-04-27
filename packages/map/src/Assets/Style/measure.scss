@@ -1,0 +1,27 @@
+.gdu-measure-distance-layer-popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 8px;
+  font-size: 12px;
+  color: #dadadb;
+  background-color: #2d2d2ecc;
+  border-color: #88888f33;
+  border-radius: 6px;
+
+  > i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+    cursor: pointer;
+    background-image: url("@map/Assets/delete-icon-normal.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    &:hover {
+      background-image: url("@map/Assets/delete-icon-hover.png");
+    }
+  }
+}

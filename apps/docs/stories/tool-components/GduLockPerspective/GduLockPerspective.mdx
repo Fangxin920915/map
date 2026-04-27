@@ -1,0 +1,151 @@
+import { Meta, Controls,Canvas } from '@storybook/addon-docs/blocks';
+
+import * as GduLockPerspective from './GduLockPerspective.stories';
+
+<Meta of={GduLockPerspective} />
+
+<Canvas/>
+
+<Controls />
+
+## 示例代码
+
+``` html
+<template>
+      <div style="display: flex;flex-direction: row;width: 100%;height: 100%;overflow: hidden">
+        <!--    放置视椎体图层     -->
+        <div style="flex: 1;position: relative;">
+          <gdu-map :view-id="viewId" @ready="ready"/>
+          <gdu-view v-if="show" ref="view" :view-id="viewId" />
+          <gdu-vector-layer v-if="show" :view-id="viewId">
+            <gdu-frustum
+                :view-id="viewId"
+                :coordinates="position"
+                :heading="heading"
+                :pitch="pitch"
+                :fov="fov"
+                :far="2000"
+            />
+          </gdu-vector-layer>
+          <gdu-wmts-basemap
+              v-if="show"
+              :view-id="viewId"
+              url="http://t{0-7}.tianditu.gov.cn/img_w/wmts?tk=490c03d5e1875b979156869f31651c6f"
+              layer="img"
+              tileStyle="default"
+              format="tiles"
+              tileMatrixSetID="w"
+              :z-index="1"
+          />
+          <gdu-wmts-basemap
+              v-if="show"
+              :view-id="viewId"
+              url="http://t{0-7}.tianditu.gov.cn/cia_w/wmts?tk=490c03d5e1875b979156869f31651c6f"
+              layer="cia"
+              tileStyle="default"
+              format="tiles"
+              tileMatrixSetID="w"
+              :z-index="2"
+          />
+        </div>
+        <!--    同步视角图层     -->
+        <div  style="flex: 1;position: relative;">
+          <gdu-lock-perspective
+              :view-id="lockPerspectiveViewId"
+              v-bind="args"
+              v-model:heading="heading"
+              v-model:pitch="pitch"
+              :camera-position="position"
+              :fov="fov"
+              @ready="readyLockPerspective"
+              @distance-change="distanceChange"
+          />
+          <gdu-wmts-basemap
+              v-if="showLockPerspective"
+              :view-id="lockPerspectiveViewId"
+              url="http://t{0-7}.tianditu.gov.cn/img_w/wmts?tk=490c03d5e1875b979156869f31651c6f"
+              layer="img"
+              tileStyle="default"
+              format="tiles"
+              tileMatrixSetID="w"
+              :z-index="1"
+          />
+          <gdu-wmts-basemap
+              v-if="showLockPerspective"
+              :view-id="lockPerspectiveViewId"
+              url="http://t{0-7}.tianditu.gov.cn/cia_w/wmts?tk=490c03d5e1875b979156869f31651c6f"
+              layer="cia"
+              tileStyle="default"
+              format="tiles"
+              tileMatrixSetID="w"
+              :z-index="2"
+          />
+          <span
+              style="position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);background-color: rgba(0,0,0,0.5);padding: 4px;color: #fff;"
+          >
+            距离：{{distance}}
+          </span>
+        </div>
+      </div>
+      <el-form style="position: absolute; top: 10px; right: 10px;background-color: white;width: 300px;padding: 10px">
+        <el-form-item label="fov">
+          <el-slider v-model="fov" :min="5" :max="160"/>
+        </el-form-item>
+      </el-form>
+</template>
+
+<script setup lang="ts">
+      import { ref, onMounted } from 'vue';
+      import { uuid } from '@gdu-gl/core';
+      import {
+          GduMap,
+          GduLockPerspective,
+          GduWmtsBasemap,
+          GduView,
+          GduVectorLayer,
+          GduFrustum,
+      } from '@gdu-gl/map';
+
+      // 锁定视角地图加载状态
+      const showLockPerspective = ref(false);
+      // 主地图加载状态
+      const show = ref(false);
+
+      // 点位坐标
+      const position = [114.45934271025556, 30.518918853973258, 2000];
+
+      // 主地图视角控制组件
+      const view = ref();
+
+      // 锁定视角地图id
+      const lockPerspectiveViewId = uuid();
+      const viewId = uuid();
+      // 视场角，通过变倍计算出来的
+      const fov = ref(60);
+      // 航向角
+      const heading = ref(0);
+      // 俯仰角
+      const pitch = ref(0);
+      // 地图中心点的拾取距离
+      const distance = ref(null);
+
+      function readyLockPerspective() {
+        showLockPerspective.value = true;
+      }
+
+      function ready() {
+        show.value = true;
+        nextTick(() => {
+          view.value.jumpTo({
+            position,
+            pitch: -45,
+            zoom: 12,
+          });
+        });
+      }
+
+      function distanceChange(d: any) {
+        distance.value = d;
+      }
+</script>
+```

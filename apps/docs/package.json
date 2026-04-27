@@ -1,0 +1,41 @@
+{
+  "name": "@gdu-gl/docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf ./storybook-static && rimraf ./dist",
+    "clean:modules": "rimraf ./node_modules",
+    "dev:storybook": "storybook dev -p 6006",
+    "dev:docs": "vite dev",
+    "build:storybook": "storybook build",
+    "build:docs": "vite build"
+  },
+  "dependencies": {
+    "@codemirror/commands": "^6.10.3",
+    "@codemirror/language": "^6.12.3",
+    "@codemirror/search": "^6.6.0",
+    "@codemirror/state": "^6.6.0",
+    "@codemirror/theme-one-dark": "^6.1.3",
+    "@codemirror/view": "^6.40.0",
+    "@gdu-gl/cesium": "workspace:^",
+    "@gdu-gl/common": "workspace:^",
+    "@gdu-gl/core": "workspace:^",
+    "@gdu-gl/map": "workspace:^",
+    "@turf/turf": "7.2.0",
+    "@vue/compiler-sfc": "^3.5.13",
+    "cesium": "1.138.0",
+    "element-plus": "^2.9.4",
+    "gcoord": "^1.0.7",
+    "vue": "3.5.13"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "5.0.0",
+    "@storybook/addon-a11y": "10.2.0",
+    "@storybook/addon-docs": "10.2.0",
+    "@storybook/addon-links": "10.2.0",
+    "@storybook/vue3-vite": "10.2.0",
+    "storybook": "10.2.0",
+    "vite-plugin-externals": "0.6.2",
+    "vite-plugin-static-copy": "^3.1.2"
+  }
+}

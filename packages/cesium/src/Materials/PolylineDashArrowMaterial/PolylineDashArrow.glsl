@@ -1,0 +1,101 @@
+uniform vec4 color;
+uniform vec4 gapColor;
+uniform float dashLength;
+uniform float dashPattern;
+in float v_polylineAngle;
+
+const float maskLength = 16.0;
+
+float getPointOnLine(vec2 p0, vec2 p1, float x)
+{
+    float slope = (p0.y - p1.y) / (p0.x - p1.x);
+    return slope * (x - p0.x) + p0.y;
+}
+
+mat2 rotate(float rad) {
+    float c = cos(rad);
+    float s = sin(rad);
+    return mat2(
+        c, s,
+        -s, c
+    );
+}
+
+czm_material czm_getMaterial(czm_materialInput materialInput)
+{
+    czm_material material = czm_getDefaultMaterial(materialInput);
+
+    vec2 st = materialInput.st;
+
+#if (__VERSION__ == 300 || defined(GL_OES_standard_derivatives))
+    float base = 1.0 - abs(fwidth(st.s)) * 10.0 * czm_pixelRatio;
+#else
+     // If no derivatives available (IE 10?), 2.5% of the line will be the arrow head
+    float base = 0.975;
+#endif
+
+    vec2 center = vec2(1.0, 0.5);
+    float ptOnUpperLine = getPointOnLine(vec2(base, 1.0), center, st.s);
+    float ptOnLowerLine = getPointOnLine(vec2(base, 0.0), center, st.s);
+
+    float halfWidth = 0.15;
+    float s = step(0.5 - halfWidth, st.t);
+    s *= 1.0 - step(0.5 + halfWidth, st.t);
+    s *= 1.0 - step(base, st.s);
+
+    float t = step(base, materialInput.st.s);
+    t *= 1.0 - step(ptOnUpperLine, st.t);
+    t *= step(ptOnLowerLine, st.t);
+
+    // Find the distance from the closest separator (region between two colors)
+    float dist;
+    if (st.s < base)
+    {
+        float d1 = abs(st.t - (0.5 - halfWidth));
+        float d2 = abs(st.t - (0.5 + halfWidth));
+        dist = min(d1, d2);
+    }
+    else
+    {
+        float d1 = czm_infinity;
+        if (st.t < 0.5 - halfWidth && st.t > 0.5 + halfWidth)
+        {
+            d1 = abs(st.s - base);
+        }
+        float d2 = abs(st.t - ptOnUpperLine);
+        float d3 = abs(st.t - ptOnLowerLine);
+        dist = min(min(d1, d2), d3);
+    }
+
+    // 为非箭头部分应用虚线效果
+    vec4 fragColor;
+    if (st.s < base) {
+        // 非箭头部分，应用虚线逻辑
+        vec2 pos = rotate(v_polylineAngle) * gl_FragCoord.xy;
+
+        // 计算在虚线模式中的相对位置
+        float dashPosition = fract(pos.x / (dashLength * czm_pixelRatio));
+        // 确定掩码索引
+        float maskIndex = floor(dashPosition * maskLength);
+        // 测试位掩码
+        float maskTest = floor(dashPattern / pow(2.0, maskIndex));
+        fragColor = (mod(maskTest, 2.0) < 1.0) ? gapColor : color;
+    } else {
+        // 箭头部分，保持原色
+        fragColor = color;
+    }
+
+    vec4 outsideColor = vec4(0.0);
+    vec4 currentColor = mix(outsideColor, fragColor, clamp(s + t, 0.0, 1.0));
+    vec4 outColor = czm_antialias(outsideColor, fragColor, currentColor, dist);
+
+    // 如果透明度太低，丢弃片段
+    if (outColor.a < 0.005) {  // matches 0/255 and 1/255
+        discard;
+    }
+
+    outColor = czm_gammaCorrect(outColor);
+    material.diffuse = outColor.rgb;
+    material.alpha = outColor.a;
+    return material;
+}

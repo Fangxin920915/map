@@ -1,0 +1,194 @@
+import { Meta, Controls,Canvas } from '@storybook/addon-docs/blocks';
+
+import * as GduMarkerLayerStories from './GduMarkerLayer.stories';
+
+<Meta of={GduMarkerLayerStories} />
+
+<Canvas/>
+
+<Controls />
+
+## 示例代码
+
+``` html
+<template>
+      <gdu-map :view-id="viewId" @ready="ready"/>
+      <gdu-marker-layer
+          v-if="show"
+          ref="markerLayer"
+          v-bind="args"
+          :view-id="viewId"
+          v-model:select-id="selectId"
+          v-model:data-source="dataSource"
+      />
+      <el-button-group style="position: absolute;z-index: 10;top:10px;left: 10px;">
+        <el-button @click="startDrawPoint">绘制点</el-button>
+        <el-button @click="startDrawLineString">绘制线</el-button>
+        <el-button @click="startDrawPolygon">绘制面</el-button>
+        <el-button @click="startDrawCircle">绘制圆</el-button>
+      </el-button-group>
+</template>
+
+<script setup lang="ts">
+      import { ref, onMounted } from 'vue';
+      import { GeoFeatureType, MarkerStrokeType } from '@gdu-gl/common';
+      import { uuid } from '@gdu-gl/core';
+      import {
+          GduMap,
+          GduMarkerLayer,
+          GduWmtsBasemap,
+          GduTerrainBasemap
+      } from '@gdu-gl/map';
+
+      const show = ref(false);
+      const viewId = uuid();
+      const selectId = ref("");
+
+      const markerLayer = ref();
+      const dataSource = ref([]);
+
+      function ready() {
+        show.value = true;
+      }
+
+      function startDrawPoint() {
+        markerLayer.value.startDraw({
+          type: GeoFeatureType.Point,
+          style: {
+            theme: "brand", // 必填：样式主题（格式通常为 "主题名-色阶"）
+            text: "POI标记", // 可选：标记上显示的文本
+            textSize: 14, // 可选：文本大小（像素）
+            visible: true, // 可选：是否可见（默认 true）
+            iconSize: 32, // 必填：图标大小（像素）
+            iconName: PointerType.Location, // 必填：图标名称（取自 PointerType 枚举）
+          },
+        });
+      }
+
+      function startDrawLineString() {
+        markerLayer.value.startDraw({
+          type: GeoFeatureType.LineString,
+          style: {
+            theme: "brand", // 必填：样式主题（格式通常为 "主题名-色阶"）
+            text: "主要道路", // 可选：线要素上显示的文本
+            textSize: 12, // 可选：文本大小（像素）
+            visible: true, // 可选：是否可见（默认 true）
+            strokeType: MarkerStrokeType.Solid, // 必填：线条类型（取自 MarkerStrokeType 枚举）
+            strokeWidth: 4, // 必填：线条宽度（像素）
+          },
+        });
+      }
+
+      function startDrawPolygon() {
+        markerLayer.value.startDraw({
+          type: GeoFeatureType.Polygon,
+          style: {
+            theme: "brand", // 必填：样式主题（格式通常为 "主题名-色阶"）
+            text: "行政区域", // 可选：面要素上显示的文本
+            textSize: 14, // 可选：文本大小（像素）
+            visible: true, // 可选：是否可见（默认 true）
+            strokeType: MarkerStrokeType.Solid, // 必填：边界线条类型（取自 MarkerStrokeType 枚举）
+            strokeWidth: 4, // 必填：边界线条宽度（像素）
+            fillOpacity: 20, // 必填：填充透明度（0-100，此处为 60% 不透明）
+          },
+        });
+      }
+
+      function startDrawCircle() {
+        markerLayer.value.startDraw({
+          type: GeoFeatureType.Circle,
+          style: {
+            theme: "brand", // 必填：样式主题（格式通常为 "主题名-色阶"）
+            text: "绘制圆", // 可选：面要素上显示的文本
+            textSize: 14, // 可选：文本大小（像素）
+            visible: true, // 可选：是否可见（默认 true）
+            strokeType: MarkerStrokeType.Solid, // 必填：边界线条类型（取自 MarkerStrokeType 枚举）
+            strokeWidth: 4, // 必填：边界线条宽度（像素）
+            fillOpacity: 20, // 必填：填充透明度（0-100，此处为 60% 不透明）
+          },
+        });
+      }
+</script>
+```
+
+## dataSource数据注解
+
+``` javascript
+[
+    {
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                111.23769503679935,
+                26.13536078305136,
+                0
+            ]
+        },
+        "properties": {
+            "id": "1325fbad-ff65-4882-824f-521eae247d46", // 要素唯一标识
+            "options": {
+                "theme": "brand", // 样式主题
+                "text": "POI标记", // 显示文本
+                "textSize": 14, // 文本大小(px)
+                "visible": true, // 是否可见
+                "iconSize": 32, // 图标大小
+                "iconName": "location" // 图标名称
+            }
+        }
+    },
+    {
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [ ... ]
+        },
+        "properties": {
+            "id": "d0ec4418-791a-4ab6-bd2a-11a78e8f8386",
+            "options": {
+                "theme": "brand",
+                "text": "主要道路",
+                "textSize": 12,
+                "visible": true,
+                "strokeType": "solid", // 线条类型
+                "strokeWidth": 4 // 线条宽度(px)
+            }
+        }
+    },
+    {
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [ ... ]
+        },
+        "properties": {
+            "id": "503a33a8-8d2a-4375-a82a-5083a07f2df5",
+            "options": {
+                "theme": "brand",
+                "text": "行政区域",
+                "textSize": 14,
+                "visible": true,
+                "strokeType": "solid",
+                "strokeWidth": 4,
+                "fillOpacity": 20
+            }
+        }
+    },
+    {
+        "geometry": {
+            "type": "Circle", // 圆要素
+            "coordinates": [111.22803741892494, 26.11693575943675, 0], // 圆心坐标
+            "radius": 1.8738286993520494 // 半径(km)
+        },
+        "properties": {
+            "id": "d83d26f6-6443-4d55-a846-8c21d75b5d4a",
+            "options": {
+                "theme": "brand",
+                "text": "绘制圆",
+                "textSize": 14,
+                "visible": true,
+                "strokeType": "solid",
+                "strokeWidth": 4,
+                "fillOpacity": 20, // 填充透明度(%)
+            }
+        }
+    }
+]
+```

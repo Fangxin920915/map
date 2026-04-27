@@ -1,0 +1,6941 @@
+[
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [102.63603873, 28.85199942, -444.5]
+    },
+    "properties": {
+      "id": "bae2d884-43c8-4abf-84c5-f9e5b43dc05e",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记1",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "flag",
+        "relativeHeight": 8
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [104.85693581, 39.86355012],
+        [98.04553218, 51.41781463],
+        [99.66787385, 25.38821651],
+        [88.58542402, 34.07911776],
+        [81.6163831, 52.88024067]
+      ]
+    },
+    "properties": {
+      "id": "459659b2-78aa-46dd-a6d2-2fc646299769",
+      "options": {
+        "theme": "brand",
+        "text": "边界线2",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [80.71118209, 34.23010262],
+          [82.04709659605051, 34.23010262],
+          [82.04709659605051, 35.566017126050504],
+          [80.71118209, 35.566017126050504],
+          [80.71118209, 34.23010262]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "78203e93-8cf9-4d96-9b61-09d5027f6e09",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "行政区域3",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 32
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [94.55992097, 52.27375849, 421.2],
+      "radius": 229.96055551553297
+    },
+    "properties": {
+      "id": "d1ec9449-38f7-4141-be6b-119fbd9d7aaa",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "4",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 36
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [83.75524531, 52.9952591, 41.7]
+    },
+    "properties": {
+      "id": "e391da13-a26f-46f9-b208-e54f62a0d6b2",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "设施点5",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "marker",
+        "relativeHeight": 19
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [76.29028873, 27.33636138],
+        [114.57957956, 50.34068033],
+        [93.67867563, 33.72838464],
+        [101.70006417, 43.26767449],
+        [73.76209827, 44.62435892]
+      ]
+    },
+    "properties": {
+      "id": "5bd44fd5-5163-4daa-9033-8eaa41c43f16",
+      "options": {
+        "theme": "brand",
+        "text": "路径6",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [98.04773569, 33.62263262],
+          [98.71580445572188, 33.62263262],
+          [98.71580445572188, 34.290701385721874],
+          [98.04773569, 34.290701385721874],
+          [98.04773569, 33.62263262]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "d7936842-a2b1-4fba-8851-7df20a9a8be0",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块7",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 24
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [111.1287265, 48.60560313, -133.1],
+      "radius": 137.2339028575393
+    },
+    "properties": {
+      "id": "e29ea746-28d5-40ea-94af-e2f48a57b152",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "8",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 20
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [80.37152593, 27.62745706, -446.5]
+    },
+    "properties": {
+      "id": "3fd0961a-3459-45ae-913e-354c95660e90",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记9",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "pin",
+        "relativeHeight": 19
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [79.11036178, 25.83576919],
+        [81.8332599, 31.681571],
+        [86.50024549, 31.00369383],
+        [85.9590615, 28.62000141],
+        [95.02276403, 25.25738976]
+      ]
+    },
+    "properties": {
+      "id": "f37f69ae-c474-4b91-92d5-b93f99c658da",
+      "options": {
+        "theme": "brand",
+        "text": "边界线10",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [104.86129195, 27.71644354],
+          [106.65679624059621, 27.71644354],
+          [106.65679624059621, 29.51194783059621],
+          [104.86129195, 29.51194783059621],
+          [104.86129195, 27.71644354]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "ce6001e7-e561-401b-a4d3-d89943c14d28",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分11",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 38
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [91.96556088, 55.72803237, 157.9],
+      "radius": 284.33586003226674
+    },
+    "properties": {
+      "id": "d0614fca-b708-4407-a8b0-be9c810f8627",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "12",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 45
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [87.25093541, 22.90309039, -371.4]
+    },
+    "properties": {
+      "id": "a840b1f9-086a-4a5e-b547-466e60ae68ac",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记13",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "marker",
+        "relativeHeight": 6
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [80.51195561, 53.79895548],
+        [121.82506518, 25.74553429],
+        [120.20578517, 51.68438036],
+        [122.13270664, 51.94269563],
+        [74.29164951, 49.84051837]
+      ]
+    },
+    "properties": {
+      "id": "f4c6fac6-1a18-4220-8a5d-b83b10f923be",
+      "options": {
+        "theme": "brand",
+        "text": "路径14",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [81.51146207, 46.25741172],
+          [83.59374705916852, 46.25741172],
+          [83.59374705916852, 48.33969670916853],
+          [81.51146207, 48.33969670916853],
+          [81.51146207, 46.25741172]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "25bd9fe3-cb5d-481b-bff4-9e25d85a1242",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "园区范围15",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 10
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [116.58540264, 50.17441649, -114.1],
+      "radius": 171.73769525575733
+    },
+    "properties": {
+      "id": "eb9181e6-4876-43e8-a09f-cc2aeba33fe2",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "16",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 29
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [74.69765798, 30.62384187, -399.7]
+    },
+    "properties": {
+      "id": "c32cdea2-93a6-4149-8a4e-621f11b26a7d",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记17",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "pin",
+        "relativeHeight": 13
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [100.97081424, 32.64332229],
+        [79.0117655, 20.19649132],
+        [90.30711787, 35.10521336],
+        [90.47301606, 36.14117212]
+      ]
+    },
+    "properties": {
+      "id": "186800bc-dc89-4f68-8998-40f35954e736",
+      "options": {
+        "theme": "brand",
+        "text": "主要道路18",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [74.58411397, 23.00369499],
+          [75.72512844561948, 23.00369499],
+          [75.72512844561948, 24.144709465619478],
+          [74.58411397, 24.144709465619478],
+          [74.58411397, 23.00369499]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "65a6da50-912d-4c3c-9cd0-629a4c600e25",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块19",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 38
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [101.74976307, 56.5890486, -188.8],
+      "radius": 318.43253124897785
+    },
+    "properties": {
+      "id": "123c38e8-a43f-483c-a585-bc7aba9b7636",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "20",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 38
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [107.3543119, 37.52047345, -224.6]
+    },
+    "properties": {
+      "id": "4b189f4d-0d1c-4ccb-9261-a28783bb1382",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "设施点21",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "pin",
+        "relativeHeight": 8
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [81.44070785, 40.35903065],
+        [75.560095, 40.5897767],
+        [107.60607403, 44.61558895]
+      ]
+    },
+    "properties": {
+      "id": "55520e94-6048-4eb4-9668-436a2815df36",
+      "options": {
+        "theme": "brand",
+        "text": "次要道路22",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [93.43363517, 42.2740863],
+          [95.0557012230981, 42.2740863],
+          [95.0557012230981, 43.896152353098095],
+          [93.43363517, 43.896152353098095],
+          [93.43363517, 42.2740863]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "720711e8-e984-483b-b256-3f62139019d3",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "园区范围23",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 40
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [76.58450616, 46.06237222, 251],
+      "radius": 216.83121791570366
+    },
+    "properties": {
+      "id": "307a6d7d-ac0e-4946-8fbb-deaabc74dffb",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "24",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 26
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [80.19692518, 54.37602786, -271.5]
+    },
+    "properties": {
+      "id": "0d49439a-1b15-4b16-b827-cca6d9b9cb83",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记25",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "pin",
+        "relativeHeight": 6
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [110.96372674, 23.62795196],
+        [94.72089488, 48.02367368],
+        [121.60342988, 42.11602048],
+        [115.59194648, 21.32551137],
+        [102.79424499, 28.35875598]
+      ]
+    },
+    "properties": {
+      "id": "cf6852ff-c932-49a2-a58c-7218aeb60caf",
+      "options": {
+        "theme": "brand",
+        "text": "主要道路26",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [89.64142627, 42.26068481],
+          [92.08223848592415, 42.26068481],
+          [92.08223848592415, 44.70149702592415],
+          [89.64142627, 44.70149702592415],
+          [89.64142627, 42.26068481]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "ee3aaac2-688d-4d3e-91d3-69844e7816cb",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块27",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 29
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [115.23103662, 57.3095059, 93.6],
+      "radius": 328.42140166591014
+    },
+    "properties": {
+      "id": "828dc16f-8bcc-49d6-8253-6668ffe46c3c",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "28",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 32
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [116.60344316, 30.72938289, -96.1]
+    },
+    "properties": {
+      "id": "7e568e7e-ab7d-45a1-8d40-3a6bd8127089",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记29",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "marker",
+        "relativeHeight": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [101.56316034, 19.04662259],
+        [73.67908895, 31.36837502],
+        [97.62385337, 51.30592387]
+      ]
+    },
+    "properties": {
+      "id": "3286a41c-7498-4d4b-ac62-e2ee85257bae",
+      "options": {
+        "theme": "brand",
+        "text": "边界线30",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [101.14499888, 35.32486603],
+          [102.3539702818393, 35.32486603],
+          [102.3539702818393, 36.53383743183929],
+          [101.14499888, 36.53383743183929],
+          [101.14499888, 35.32486603]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "ce4c1f17-cd08-49d8-be0f-042fc4a244e7",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块31",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 27
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [98.11577849, 41.86447681, 42.4],
+      "radius": 490.9099534639468
+    },
+    "properties": {
+      "id": "1ed52df4-1a2d-478a-8c8e-ab28a24a9f46",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "32",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 11
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [84.52746043, 42.87850396, -62.4]
+    },
+    "properties": {
+      "id": "2165405f-e0eb-49eb-bbb2-dba4f9db662c",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "设施点33",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "pin",
+        "relativeHeight": 13
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [74.53073941, 30.98321809],
+        [77.8054113, 32.31509107],
+        [107.16931976, 25.36355759],
+        [92.07361921, 53.44425478]
+      ]
+    },
+    "properties": {
+      "id": "14bb33ca-641e-4da1-95ae-485158d3dc98",
+      "options": {
+        "theme": "brand",
+        "text": "边界线34",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [84.74958012, 43.14759699],
+          [85.7307688250396, 43.14759699],
+          [85.7307688250396, 44.12878569503959],
+          [84.74958012, 44.12878569503959],
+          [84.74958012, 43.14759699]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "52a02388-9aab-4579-b81e-37607200ccf3",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "行政区域35",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 48
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [100.85708127, 29.82868795, 103.9],
+      "radius": 174.727392007954
+    },
+    "properties": {
+      "id": "3499e163-c165-4c88-9c31-061ac58c7276",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "36",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 34
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [91.65399424, 35.1758779, 405.3]
+    },
+    "properties": {
+      "id": "1b8d0c2d-efa2-4ba4-b266-7a0f76207819",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "设施点37",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "marker",
+        "relativeHeight": 7
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [92.75440367, 42.9283438],
+        [92.91655499, 42.14416961],
+        [93.86385078, 40.98006629],
+        [95.43235372, 50.80733156]
+      ]
+    },
+    "properties": {
+      "id": "d8e8c4fd-93de-411a-aae3-d283f462de0d",
+      "options": {
+        "theme": "brand",
+        "text": "路径38",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [76.48460964, 32.00131851],
+          [78.91825647686579, 32.00131851],
+          [78.91825647686579, 34.434965346865795],
+          [76.48460964, 34.434965346865795],
+          [76.48460964, 32.00131851]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "5ed9525a-84a9-491e-8b28-70be33720a64",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "园区范围39",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 36
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [88.95143954, 22.26902205, -388.6],
+      "radius": 372.58942902974906
+    },
+    "properties": {
+      "id": "dd820be4-e04e-48f0-8898-c955d9ac90d8",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "40",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 42
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [91.94656572, 29.51091812, 499.7]
+    },
+    "properties": {
+      "id": "fac57933-b644-4eaf-804a-f91dd37e0c16",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "兴趣点41",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "pin",
+        "relativeHeight": 7
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [98.62416853, 19.72866781],
+        [92.95620193, 27.43992232],
+        [92.39177901, 51.4139847],
+        [107.97930406, 26.22391838]
+      ]
+    },
+    "properties": {
+      "id": "8b4d7d03-dc9d-41eb-84c7-331f171c7e72",
+      "options": {
+        "theme": "brand",
+        "text": "路径42",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [106.63530609, 21.69428081],
+          [108.86531454784057, 21.69428081],
+          [108.86531454784057, 23.924289267840567],
+          [106.63530609, 23.924289267840567],
+          [106.63530609, 21.69428081]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "0d3d74b0-a36d-4080-bf38-df8da2aa6980",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分43",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 18
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [93.8758088, 47.12503148, 252.3],
+      "radius": 228.0037006585548
+    },
+    "properties": {
+      "id": "e55ab790-62c7-4070-ac78-8bb0deb32f01",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "44",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 13
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [83.85524293, 43.75129002, -437.4]
+    },
+    "properties": {
+      "id": "923a155b-57d3-453f-ab3f-10241874f337",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "设施点45",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 10
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [103.95813859, 38.17813407],
+        [94.38662012, 47.53317351],
+        [93.32462723, 27.4204666],
+        [122.89574518, 49.77829344]
+      ]
+    },
+    "properties": {
+      "id": "27568907-f56b-4005-a6de-9b0c1182cfd5",
+      "options": {
+        "theme": "brand",
+        "text": "边界线46",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [76.81176689, 55.79780325],
+          [78.13393839507111, 55.79780325],
+          [78.13393839507111, 57.11997475507112],
+          [76.81176689, 57.11997475507112],
+          [76.81176689, 55.79780325]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "b9e19fef-d3e6-4173-9d73-63c88415e1f5",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块47",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 38
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [99.19957215, 32.6900742, 478.9],
+      "radius": 212.22266615483903
+    },
+    "properties": {
+      "id": "fdeec81d-af97-446b-911d-abec02481230",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "48",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 24
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [103.01750806, 57.81331238, 69.6]
+    },
+    "properties": {
+      "id": "d8bf766a-0640-4388-bf8a-ab0836e8b72a",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记49",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "flag",
+        "relativeHeight": 10
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [121.99589564, 39.59766396],
+        [111.71944635, 46.72767531],
+        [121.43071395, 39.08602211]
+      ]
+    },
+    "properties": {
+      "id": "300aed41-8b2f-45fa-a4ad-4b41e3e22de4",
+      "options": {
+        "theme": "brand",
+        "text": "边界线50",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [121.65957527, 49.04631166],
+          [124.11169566503473, 49.04631166],
+          [124.11169566503473, 51.498432055034726],
+          [121.65957527, 51.498432055034726],
+          [121.65957527, 49.04631166]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "51c38690-0b06-4e79-be69-1daf7095f591",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块51",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 45
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [122.10903814, 32.63287771, -164.6],
+      "radius": 202.64631692169417
+    },
+    "properties": {
+      "id": "5f89f17a-c97d-4d70-a0b1-658487d91de4",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "52",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 27
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [120.01717998, 23.70577667, 6.6]
+    },
+    "properties": {
+      "id": "0b64cf90-a48b-4a2e-885d-faba1faedefd",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记53",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "pin",
+        "relativeHeight": 19
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [85.45123121, 38.47540245],
+        [83.62606302, 20.05599295],
+        [81.12108331, 52.30713798],
+        [113.38521355, 31.69045283]
+      ]
+    },
+    "properties": {
+      "id": "d655947e-de98-49c0-9901-b8d8af650feb",
+      "options": {
+        "theme": "brand",
+        "text": "主要道路54",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [116.87716632, 29.34171342],
+          [117.7628657885476, 29.34171342],
+          [117.7628657885476, 30.227412888547605],
+          [116.87716632, 30.227412888547605],
+          [116.87716632, 29.34171342]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "425a8008-3d69-4dab-9361-cb6c91a7f096",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分55",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 16
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [89.685104, 42.90588068, -18.7],
+      "radius": 219.2334965004859
+    },
+    "properties": {
+      "id": "fb5cdd90-761a-4a39-bfd7-df89cd3361f7",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "56",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 14
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [79.70090645, 57.97119795, -410.4]
+    },
+    "properties": {
+      "id": "d8d89d71-b054-4750-b706-d4ab795a1342",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "兴趣点57",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "pin",
+        "relativeHeight": 18
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [90.56604581, 31.14928702],
+        [123.41030956, 30.02045635],
+        [84.85919576, 57.19402824],
+        [112.81293248, 28.70348336]
+      ]
+    },
+    "properties": {
+      "id": "04f03632-b921-47a8-9c8d-8c537c10c80e",
+      "options": {
+        "theme": "brand",
+        "text": "次要道路58",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [81.08288998, 49.30585706],
+          [82.98502590293619, 49.30585706],
+          [82.98502590293619, 51.20799298293618],
+          [81.08288998, 51.20799298293618],
+          [81.08288998, 49.30585706]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "239eff0c-4870-408d-a7d9-53eb0f4ac628",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块59",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 39
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [121.55898461, 42.25215295, 265.4],
+      "radius": 164.19393752258839
+    },
+    "properties": {
+      "id": "f375b9ab-5460-4f45-b4e8-5c3f779d4827",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "60",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 13
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [82.43519512, 50.68987829, -267.8]
+    },
+    "properties": {
+      "id": "b73539ce-1233-4d5e-83ee-1d430509c07a",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "设施点61",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 14
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [99.07826214, 22.39029668],
+        [89.33874558, 41.18992627],
+        [107.67729742, 28.50438325],
+        [104.75781715, 57.64325311]
+      ]
+    },
+    "properties": {
+      "id": "620cad02-6c4a-4ad1-83b2-3a0591041b14",
+      "options": {
+        "theme": "brand",
+        "text": "边界线62",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [119.588967, 32.49348313],
+          [122.04108801513408, 32.49348313],
+          [122.04108801513408, 34.945604145134084],
+          [119.588967, 34.945604145134084],
+          [119.588967, 32.49348313]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "fb2c7700-a256-4b2d-9f4f-7ed8d4dbec9e",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分63",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 24
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [97.32515333, 46.63907356, 26.6],
+      "radius": 112.56748318052728
+    },
+    "properties": {
+      "id": "0968c4d4-9d17-4460-9f0a-d5f11e6199dc",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "64",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 20
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [105.4494296, 37.34024419, -487.4]
+    },
+    "properties": {
+      "id": "7097a762-4517-4018-8cc6-cc98beb8088f",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "兴趣点65",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "marker",
+        "relativeHeight": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [109.0364698, 25.09347591],
+        [100.28339239, 56.24061062],
+        [101.39934204, 31.62804061]
+      ]
+    },
+    "properties": {
+      "id": "982343c7-87e7-4e37-9c5b-e53df05850b2",
+      "options": {
+        "theme": "brand",
+        "text": "路径66",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [114.51457985, 53.92409956],
+          [116.98076195797488, 53.92409956],
+          [116.98076195797488, 56.39028166797487],
+          [114.51457985, 56.39028166797487],
+          [114.51457985, 53.92409956]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "baa47938-4caf-4c9a-9304-73ed5d35bbfe",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "园区范围67",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 15
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [108.82351047, 19.84752827, 77.2],
+      "radius": 279.45770822485696
+    },
+    "properties": {
+      "id": "af4d5674-4213-4fff-b0df-3c796f93f167",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "68",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 14
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [82.84850288, 18.66341985, -85.4]
+    },
+    "properties": {
+      "id": "36ad5125-8d62-4b4e-b742-bf897c80eab1",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记69",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 7
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [87.74579389, 39.33189208],
+        [96.20926001, 20.98582556],
+        [84.31880949, 40.46382515],
+        [117.66508702, 20.21923132],
+        [95.3591011, 38.65311464]
+      ]
+    },
+    "properties": {
+      "id": "60f54f7d-309f-44eb-bf81-54766cf217ea",
+      "options": {
+        "theme": "brand",
+        "text": "主要道路70",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [85.34191619, 43.79745778],
+          [86.86807727429942, 43.79745778],
+          [86.86807727429942, 45.32361886429942],
+          [85.34191619, 45.32361886429942],
+          [85.34191619, 43.79745778]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "a87d70f2-dcba-4712-9a24-172b94242356",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "园区范围71",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 31
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [107.82260713, 38.87539889, 376.8],
+      "radius": 131.8291875905952
+    },
+    "properties": {
+      "id": "49a30176-0953-4350-b372-352137889915",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "72",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 45
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [119.0630172, 56.17992274, 410.7]
+    },
+    "properties": {
+      "id": "099811b7-700e-481d-a47b-60ae6d409813",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "设施点73",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 15
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [117.73396753, 26.66632729],
+        [113.67107901, 36.99298666],
+        [120.18076198, 31.07416168],
+        [106.2365575, 38.40968015]
+      ]
+    },
+    "properties": {
+      "id": "47bcdadf-9d57-4a12-9753-615c64060a84",
+      "options": {
+        "theme": "brand",
+        "text": "边界线74",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [78.85469603, 18.32021831],
+          [79.86264670180054, 18.32021831],
+          [79.86264670180054, 19.328168981800548],
+          [78.85469603, 19.328168981800548],
+          [78.85469603, 18.32021831]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "429fc370-bb46-4a97-9692-f50ca0ea853d",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "园区范围75",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 47
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [94.03241545, 51.72351439, 181.8],
+      "radius": 128.68244257377714
+    },
+    "properties": {
+      "id": "8dad5470-97ce-4a4d-b32d-4df8f36a4df2",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "76",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 16
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [102.62964592, 21.06286734, -213.1]
+    },
+    "properties": {
+      "id": "04f939ff-691c-4dd7-bc32-6c74994c4155",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "兴趣点77",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "marker",
+        "relativeHeight": 15
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [122.81329486, 54.43599163],
+        [92.05265549, 45.05227051],
+        [121.93315125, 45.23508548]
+      ]
+    },
+    "properties": {
+      "id": "1c9f557d-6f75-47ed-a70e-3c920acd32ae",
+      "options": {
+        "theme": "brand",
+        "text": "路径78",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [92.13607292, 22.51267502],
+          [92.9695850362271, 22.51267502],
+          [92.9695850362271, 23.3461871362271],
+          [92.13607292, 23.3461871362271],
+          [92.13607292, 22.51267502]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "0cf8bb01-5cf3-432a-9481-e3d7a9e78322",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "园区范围79",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 34
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [113.32427645, 29.03675743, -290.3],
+      "radius": 192.48544131332886
+    },
+    "properties": {
+      "id": "379d3abe-906e-4c6a-9f61-d36b6ff0c664",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "80",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 13
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [85.94187997, 56.16274446, -12.5]
+    },
+    "properties": {
+      "id": "f0c0e50c-48c8-42d9-b590-a74ec7252d75",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "兴趣点81",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "pin",
+        "relativeHeight": 16
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [74.93438709, 24.48410032],
+        [83.46839744, 52.83923626],
+        [75.3635961, 36.70317046]
+      ]
+    },
+    "properties": {
+      "id": "d4a926ac-b5c4-4c8e-9db4-4d5f6186f4da",
+      "options": {
+        "theme": "brand",
+        "text": "次要道路82",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [122.61460235, 52.50317594],
+          [124.25550697526221, 52.50317594],
+          [124.25550697526221, 54.1440805652622],
+          [122.61460235, 54.1440805652622],
+          [122.61460235, 52.50317594]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "cf5440d8-3fb7-4cc5-b40e-8b11d92a02a5",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "行政区域83",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 43
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [76.91946063, 50.85882489, -439.8],
+      "radius": 419.70382067094994
+    },
+    "properties": {
+      "id": "891d2dd9-8ebe-4b02-a18c-f48193fdfb9c",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "84",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 16
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [119.5253505, 33.58985714, -122.7]
+    },
+    "properties": {
+      "id": "8b6d0835-e802-4825-8870-13d4b160af18",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记85",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "flag",
+        "relativeHeight": 7
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [105.88114404, 45.40341651],
+        [105.7023452, 20.50263091],
+        [110.06995746, 41.21358333],
+        [87.31841807, 31.09455928],
+        [83.81545744, 37.93637441]
+      ]
+    },
+    "properties": {
+      "id": "eaa488de-1b89-4a87-852d-c9ae2397a684",
+      "options": {
+        "theme": "brand",
+        "text": "主要道路86",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [113.26084447, 20.25054381],
+          [114.8642249449197, 20.25054381],
+          [114.8642249449197, 21.853924284919696],
+          [113.26084447, 21.853924284919696],
+          [113.26084447, 20.25054381]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "5211899d-3527-4339-a7c5-f8b31d0af600",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分87",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 22
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [86.59882323, 33.42380075, -453.6],
+      "radius": 208.62947345073138
+    },
+    "properties": {
+      "id": "954c14b1-4aaf-4014-b32b-8ba076332cc5",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "88",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 30
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [112.58146983, 29.9110136, 275]
+    },
+    "properties": {
+      "id": "96cb8df6-774a-429f-b8de-93e10971a641",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记89",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 18
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [110.70051945, 38.35035841],
+        [115.85989898, 49.33067587],
+        [85.83385199, 44.70644352]
+      ]
+    },
+    "properties": {
+      "id": "ff468cf3-c74b-4032-9d6a-cd1c4e3d3f7c",
+      "options": {
+        "theme": "brand",
+        "text": "次要道路90",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [114.20038168, 34.24574162],
+          [116.52520597913053, 34.24574162],
+          [116.52520597913053, 36.57056591913052],
+          [114.20038168, 36.57056591913052],
+          [114.20038168, 34.24574162]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "e8d2c549-0ef3-4b24-b6dd-8a07140d8389",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分91",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 19
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [106.68015908, 21.94886081, 226.9],
+      "radius": 408.2403849973761
+    },
+    "properties": {
+      "id": "e82caeed-4c7a-44d2-aa00-9e9b0b0a92c9",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "92",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 20
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [90.40189969, 26.80578135, -112.6]
+    },
+    "properties": {
+      "id": "6a8baa50-a6d4-4509-8f9d-a8727af8e435",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记93",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 17
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [110.35236461, 21.14070096],
+        [90.77373771, 50.50305916],
+        [88.74711254, 36.62081363]
+      ]
+    },
+    "properties": {
+      "id": "82fac43d-5d7d-4771-b75f-b076e3ccd915",
+      "options": {
+        "theme": "brand",
+        "text": "次要道路94",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [110.22670131, 42.04556991],
+          [111.38723493740453, 42.04556991],
+          [111.38723493740453, 43.20610353740454],
+          [110.22670131, 43.20610353740454],
+          [110.22670131, 42.04556991]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "d8b575cc-c3b9-4f83-83ec-ec83ca663163",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "行政区域95",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 12
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [88.18536003, 22.82653749, -383.6],
+      "radius": 201.50071454330893
+    },
+    "properties": {
+      "id": "a861cc55-5d05-4a7a-91e2-18091263dcc1",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "96",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 41
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [83.63140924, 35.15667012, 467.7]
+    },
+    "properties": {
+      "id": "6e69cdb0-e406-4eac-8790-c00785966a8d",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "设施点97",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "pin",
+        "relativeHeight": 11
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [102.46775099, 51.60038481],
+        [116.68533534, 19.97178912],
+        [112.05211286, 26.49242392]
+      ]
+    },
+    "properties": {
+      "id": "267485b2-9fa7-47d6-9eef-5d76292c13ac",
+      "options": {
+        "theme": "brand",
+        "text": "路径98",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [113.5906066, 49.11866368],
+          [115.6897473442094, 49.11866368],
+          [115.6897473442094, 51.21780442420939],
+          [113.5906066, 51.21780442420939],
+          [113.5906066, 49.11866368]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "02460ebc-9dda-4580-8812-0017ee156987",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块99",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 42
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [105.89600083, 42.77093638, 268.5],
+      "radius": 269.44848117920367
+    },
+    "properties": {
+      "id": "e2767320-4e9d-4c75-8960-375ef5e78b7d",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "100",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 23
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [116.94065483, 21.07732541, 269.6]
+    },
+    "properties": {
+      "id": "61c1bc58-3548-4ed2-8711-27116de2f082",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "兴趣点1",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "marker",
+        "relativeHeight": 8
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [75.49340015, 45.84558012],
+        [95.67889507, 20.910378],
+        [118.15795993, 33.16386551],
+        [90.46027732, 48.04837985],
+        [106.91379779, 52.86983822]
+      ]
+    },
+    "properties": {
+      "id": "d38f846a-c66f-45aa-bb40-13196b1b8aae",
+      "options": {
+        "theme": "brand",
+        "text": "次要道路2",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [113.07058881, 49.84354634],
+          [114.07362383587285, 49.84354634],
+          [114.07362383587285, 50.84658136587286],
+          [113.07058881, 50.84658136587286],
+          [113.07058881, 49.84354634]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "2e19045b-803d-430c-948c-ba06cdc8dfea",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分3",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 10
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [118.46289602, 29.07298174, -367.1],
+      "radius": 356.3356758759875
+    },
+    "properties": {
+      "id": "2194609c-1fea-4bd1-ba0d-3d6b0733dbf3",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "4",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 38
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [75.11621451, 26.74006526, -113]
+    },
+    "properties": {
+      "id": "9ab0fa29-4053-4d99-b995-94f2aa2efb7b",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记5",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "flag",
+        "relativeHeight": 9
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [76.11426842, 42.50316824],
+        [122.45250734, 40.24265557],
+        [81.86955765, 50.88960755]
+      ]
+    },
+    "properties": {
+      "id": "2526442f-0c32-47a7-8ca4-e28225efa9d1",
+      "options": {
+        "theme": "brand",
+        "text": "路径6",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [92.33676888, 30.11088407],
+          [92.98291688623758, 30.11088407],
+          [92.98291688623758, 30.757032076237586],
+          [92.33676888, 30.757032076237586],
+          [92.33676888, 30.11088407]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "55d5cd1c-3de4-41a5-9cee-37fe43aac884",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分7",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 40
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [116.42017247, 23.37033862, -77.3],
+      "radius": 488.075957859923
+    },
+    "properties": {
+      "id": "83c01ca7-93fc-41e0-a3fb-2e6a0b9c9585",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "8",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 37
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [118.01087547, 39.07617023, -468.3]
+    },
+    "properties": {
+      "id": "7c1cade7-897d-466f-ae28-29990a263e72",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记9",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 6
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [81.53099292, 29.87498767],
+        [77.57283587, 54.40089445],
+        [105.94092888, 33.57547683]
+      ]
+    },
+    "properties": {
+      "id": "656693be-3080-4c8b-a663-22dc88886031",
+      "options": {
+        "theme": "brand",
+        "text": "路径10",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [98.04441252, 22.88201723],
+          [98.93213912910251, 22.88201723],
+          [98.93213912910251, 23.769743839102514],
+          [98.04441252, 23.769743839102514],
+          [98.04441252, 22.88201723]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "35a77c51-d19f-4f7c-8ef2-2b0abdeab8e0",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分11",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 42
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [89.02223231, 40.85726152, -168.5],
+      "radius": 405.0373087981258
+    },
+    "properties": {
+      "id": "338925fe-ef28-45dc-8623-5f63832295cf",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "12",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 25
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [82.44183461, 19.64725329, 84]
+    },
+    "properties": {
+      "id": "047ff2e6-b416-40ed-b4da-2d62458acce2",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记13",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "flag",
+        "relativeHeight": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [98.16173243, 45.37130843],
+        [117.17286139, 32.47006096],
+        [100.37940824, 51.34375815],
+        [112.62262999, 26.31385024],
+        [80.31267801, 19.98179032]
+      ]
+    },
+    "properties": {
+      "id": "c5818814-8129-4912-a94e-11627b3ada75",
+      "options": {
+        "theme": "brand",
+        "text": "边界线14",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [84.57251578, 53.67601863],
+          [86.11164854363446, 53.67601863],
+          [86.11164854363446, 55.21515139363445],
+          [84.57251578, 55.21515139363445],
+          [84.57251578, 53.67601863]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "56f871c7-251d-404f-ad37-e71574d61d91",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "园区范围15",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 17
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [86.67141844, 44.95122338, -131.7],
+      "radius": 474.5196874335426
+    },
+    "properties": {
+      "id": "8b0e91f9-1bb9-411e-b198-a0f63e44c6cd",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "16",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 35
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [120.44012617, 29.91875578, 78.8]
+    },
+    "properties": {
+      "id": "12f9815c-3c2f-4928-b347-7fba4d8d8c5f",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "兴趣点17",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "pin",
+        "relativeHeight": 6
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [110.22278728, 52.31176782],
+        [84.09757776, 34.31411643],
+        [85.91732829, 19.8085557]
+      ]
+    },
+    "properties": {
+      "id": "01ee802c-f250-47f0-83d5-66451f00459c",
+      "options": {
+        "theme": "brand",
+        "text": "路径18",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [111.40530389, 39.34725745],
+          [112.4354687627979, 39.34725745],
+          [112.4354687627979, 40.37742232279789],
+          [111.40530389, 40.37742232279789],
+          [111.40530389, 39.34725745]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "a510f724-ff39-4d5d-863a-76db10d91df5",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分19",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 27
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [105.18202704, 32.62786908, -322.8],
+      "radius": 284.1891298318177
+    },
+    "properties": {
+      "id": "3b7d5787-c256-4c2b-834e-d90fc6b3774f",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "20",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 26
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [79.09154797, 36.69120265, -296.7]
+    },
+    "properties": {
+      "id": "8a501eb3-08ce-406f-a048-302052337f22",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记21",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "marker",
+        "relativeHeight": 15
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [78.78948602, 47.34073178],
+        [107.15834576, 38.72200003],
+        [90.167101, 31.78394763],
+        [102.13771415, 40.05802434],
+        [108.47046403, 53.87606493]
+      ]
+    },
+    "properties": {
+      "id": "20f07168-70b3-4210-9ad3-db307aefe61c",
+      "options": {
+        "theme": "brand",
+        "text": "主要道路22",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [122.90488725, 45.37191078],
+          [123.68532954361346, 45.37191078],
+          [123.68532954361346, 46.15235307361346],
+          [122.90488725, 46.15235307361346],
+          [122.90488725, 45.37191078]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "659ccc5c-dab2-4249-a104-efc8270fc92d",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "园区范围23",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 24
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [116.3686747, 30.67823796, 388.4],
+      "radius": 258.99371347054523
+    },
+    "properties": {
+      "id": "8d0a3987-518f-4de9-9f8f-6b6f019f714b",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "24",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 49
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [112.57753814, 20.61480727, 441.1]
+    },
+    "properties": {
+      "id": "71aab2db-f424-41cf-a253-1989f7bd5430",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记25",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "pin",
+        "relativeHeight": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [100.16707198, 37.18078738],
+        [93.34715993, 57.12536809],
+        [112.55291357, 38.4989949],
+        [76.58363999, 46.6360968]
+      ]
+    },
+    "properties": {
+      "id": "66f124be-d010-41c3-b8f9-1b2e73259943",
+      "options": {
+        "theme": "brand",
+        "text": "路径26",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [111.85634167, 22.0928993],
+          [113.0043076255711, 22.0928993],
+          [113.0043076255711, 23.24086525557109],
+          [111.85634167, 23.24086525557109],
+          [111.85634167, 22.0928993]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "72bd6abc-b8d8-4aeb-b981-0bcd54aa1101",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分27",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 14
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [106.85599415, 38.40903235, -380.6],
+      "radius": 384.84741046480246
+    },
+    "properties": {
+      "id": "ecee58bc-e7ee-4ac2-a589-9fadd06799f6",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "28",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 33
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [119.57095794, 23.50102281, -485.8]
+    },
+    "properties": {
+      "id": "9e402401-4efd-46e1-924b-c9ff44ffd51d",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记29",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 11
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [88.172082, 27.92004109],
+        [80.12708964, 19.84427292],
+        [94.34239071, 27.17571473]
+      ]
+    },
+    "properties": {
+      "id": "ea3a9981-0e0a-40b0-a761-762cef888bae",
+      "options": {
+        "theme": "brand",
+        "text": "边界线30",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [111.40128855, 22.87914129],
+          [112.5470202941332, 22.87914129],
+          [112.5470202941332, 24.0248730341332],
+          [111.40128855, 24.0248730341332],
+          [111.40128855, 22.87914129]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "4dac73d7-1324-4860-b942-94816d4af0d0",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分31",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 43
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [98.88911469, 25.7586381, 139.6],
+      "radius": 301.5304123771032
+    },
+    "properties": {
+      "id": "e1aa6529-934a-4b2e-bc9d-06f464bc8efe",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "32",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 44
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [88.11717429, 27.05950742, -356.5]
+    },
+    "properties": {
+      "id": "c896cd2e-8e4b-4589-90d1-f9746960b3b1",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "兴趣点33",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 6
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [113.86002189, 19.89374926],
+        [112.92987839, 22.86920265],
+        [110.81678703, 47.46707668],
+        [115.67532914, 45.69538932],
+        [107.85043104, 45.4514633]
+      ]
+    },
+    "properties": {
+      "id": "07e806d6-4ca4-499f-8133-66ee385fb3ff",
+      "options": {
+        "theme": "brand",
+        "text": "路径34",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [85.19982216, 30.84471124],
+          [87.56878991293812, 30.84471124],
+          [87.56878991293812, 33.21367899293812],
+          [85.19982216, 33.21367899293812],
+          [85.19982216, 30.84471124]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "7b90f688-10d4-45e9-aeb6-af08665387ee",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "行政区域35",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 20
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [77.27827377, 53.05990145, 389.2],
+      "radius": 428.08584310461765
+    },
+    "properties": {
+      "id": "26fc4dd5-8a1c-40a5-8f3e-da3a2b5d57fc",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "36",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 29
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [119.54959796, 30.79933179, -43.7]
+    },
+    "properties": {
+      "id": "3724a96d-3b42-42a5-8b9e-8575a89e8fbd",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "设施点37",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 15
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [111.55491295, 22.4341898],
+        [100.17639718, 43.70521114],
+        [115.75364593, 18.69406899],
+        [74.67656025, 44.62642784],
+        [120.30935319, 54.07946885]
+      ]
+    },
+    "properties": {
+      "id": "fbefc4e2-2687-4b3e-aaf5-3be458b52745",
+      "options": {
+        "theme": "brand",
+        "text": "边界线38",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [119.09835299, 30.4675413],
+          [120.43008267676463, 30.4675413],
+          [120.43008267676463, 31.799270986764625],
+          [119.09835299, 31.799270986764625],
+          [119.09835299, 30.4675413]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "deb0cf8f-7abe-4c29-b700-e089812e34b9",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分39",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 31
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [76.70760834, 35.46299642, -302.6],
+      "radius": 303.6777911847313
+    },
+    "properties": {
+      "id": "4b330fb6-aeaa-42c0-bf55-cca2fb4008cb",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "40",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 31
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [121.86869664, 36.84626326, 153.2]
+    },
+    "properties": {
+      "id": "df7cee09-9265-4a7a-b1e4-bf6a6195d715",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "兴趣点41",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "flag",
+        "relativeHeight": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [95.3221501, 54.60035798],
+        [108.40061976, 39.29176256],
+        [100.33109515, 50.56769928],
+        [111.62225728, 53.51451328],
+        [78.07569869, 50.90723287]
+      ]
+    },
+    "properties": {
+      "id": "d04f13d0-dd37-4c87-9f23-5c851505d8ab",
+      "options": {
+        "theme": "brand",
+        "text": "主要道路42",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [78.83413536, 29.8095739],
+          [80.240690924261, 29.8095739],
+          [80.240690924261, 31.216129464261],
+          [78.83413536, 31.216129464261],
+          [78.83413536, 29.8095739]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "7d8ffaf0-3c9e-4d52-bf62-895dd0c32916",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块43",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 19
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [99.34269318, 23.56314334, 353.9],
+      "radius": 362.03066682614207
+    },
+    "properties": {
+      "id": "f38b98e2-ed61-47d2-8846-c748135856e1",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "44",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 24
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [85.94286478, 25.69492279, -404.3]
+    },
+    "properties": {
+      "id": "efc4aab3-6b32-4225-84b8-71d61022b334",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "设施点45",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "flag",
+        "relativeHeight": 10
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [114.03172807, 33.06555241],
+        [77.71468675, 55.61160629],
+        [74.3381625, 39.73811523],
+        [86.57327869, 51.36717327],
+        [92.29281276, 48.7929795]
+      ]
+    },
+    "properties": {
+      "id": "a0971a9c-eec0-49f3-ba1f-51f8b348ed33",
+      "options": {
+        "theme": "brand",
+        "text": "次要道路46",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [108.48757462, 52.46241085],
+          [109.69165954098324, 52.46241085],
+          [109.69165954098324, 53.666495770983225],
+          [108.48757462, 53.666495770983225],
+          [108.48757462, 52.46241085]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "594a1ef3-3479-4106-995c-6ca1d985b32d",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "园区范围47",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 40
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [112.35460906, 18.58233759, -277.7],
+      "radius": 257.5761973002129
+    },
+    "properties": {
+      "id": "13538e3e-e091-41a1-a79e-9051791201bc",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "48",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 19
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [92.04214213, 23.19266529, 371]
+    },
+    "properties": {
+      "id": "f10fc133-9e7a-44ee-8536-4fb2f5ecd4ca",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记49",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "flag",
+        "relativeHeight": 16
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [75.31562148, 45.47079282],
+        [121.86920866, 24.26003792],
+        [89.35683791, 36.10571986],
+        [113.29815596, 26.50705539]
+      ]
+    },
+    "properties": {
+      "id": "259de4a8-31b9-42a1-b17d-966136dea8d7",
+      "options": {
+        "theme": "brand",
+        "text": "路径50",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [81.5945008, 25.26704916],
+          [83.62674560266335, 25.26704916],
+          [83.62674560266335, 27.29929396266334],
+          [81.5945008, 27.29929396266334],
+          [81.5945008, 25.26704916]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "3042e6a6-ab6d-470c-bbe1-0e695c710d4e",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "行政区域51",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 33
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [80.86529077, 49.89651428, -497.3],
+      "radius": 200.8295320141691
+    },
+    "properties": {
+      "id": "ffcce4bb-a960-45cd-9a9b-4ccc6bce01a3",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "52",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 17
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [76.9250575, 19.5937185, 262.2]
+    },
+    "properties": {
+      "id": "d1a073ec-b1a1-4045-9ef7-cbac7f785cbe",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记53",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "marker",
+        "relativeHeight": 18
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [95.79060607, 51.34115515],
+        [107.65593181, 47.19025948],
+        [98.7477389, 24.58060987],
+        [110.12421017, 27.62314514]
+      ]
+    },
+    "properties": {
+      "id": "2986d961-29e0-4430-ad46-eedb252f6345",
+      "options": {
+        "theme": "brand",
+        "text": "路径54",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [105.68386173, 27.09710261],
+          [106.87825480387512, 27.09710261],
+          [106.87825480387512, 28.29149568387512],
+          [105.68386173, 28.29149568387512],
+          [105.68386173, 27.09710261]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "ca37fec2-8c93-4a9b-a1b8-908a0f0bd205",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分55",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 23
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [109.63961026, 29.15323369, -375.6],
+      "radius": 382.8175510689363
+    },
+    "properties": {
+      "id": "95ae049c-1b4d-4a3b-84cc-6fab1fb23d95",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "56",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 13
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [113.95373337, 24.82186755, -159.1]
+    },
+    "properties": {
+      "id": "fcd691ca-15e9-4f14-a3b4-3a34bdb33f4b",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记57",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 7
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [104.06892749, 26.79275313],
+        [117.89184389, 35.19882428],
+        [84.7891175, 49.14959258],
+        [91.89061825, 26.07047508]
+      ]
+    },
+    "properties": {
+      "id": "16725932-ea45-4d91-af57-4a5e15a4de4a",
+      "options": {
+        "theme": "brand",
+        "text": "主要道路58",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [111.49897132, 57.47795047],
+          [113.30712917097121, 57.47795047],
+          [113.30712917097121, 59.28610832097121],
+          [111.49897132, 59.28610832097121],
+          [111.49897132, 57.47795047]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "95afc5cb-4559-4f15-a4f6-325e89aa97fb",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块59",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 39
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [110.3782546, 33.23536862, -118.7],
+      "radius": 203.37535184155843
+    },
+    "properties": {
+      "id": "fa1bd513-e5bf-4f6e-b986-3fa99a286d6b",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "60",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 15
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [122.35458194, 49.26845997, 184.6]
+    },
+    "properties": {
+      "id": "deee6b15-d18a-4076-a875-be6907473526",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记61",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "pin",
+        "relativeHeight": 18
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [116.19470557, 52.24128326],
+        [103.11664569, 30.02233809],
+        [90.70042764, 56.03531815],
+        [92.84911365, 24.74746184]
+      ]
+    },
+    "properties": {
+      "id": "8304ad71-7935-4df0-bf78-46c5c4085c66",
+      "options": {
+        "theme": "brand",
+        "text": "次要道路62",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [107.76549648, 29.02302833],
+          [110.0046331907675, 29.02302833],
+          [110.0046331907675, 31.262165040767506],
+          [107.76549648, 31.262165040767506],
+          [107.76549648, 29.02302833]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "421b7e4a-cba3-4da1-b797-d7792644541a",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分63",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 19
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [100.44302442, 26.37429862, -230.3],
+      "radius": 467.79563947445115
+    },
+    "properties": {
+      "id": "43d92f65-b362-4653-8372-a500ae4a50e0",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "64",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 31
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [84.338106, 42.01274038, 232.9]
+    },
+    "properties": {
+      "id": "4eb77366-299b-4c8d-884c-6b15599d5040",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "兴趣点65",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "marker",
+        "relativeHeight": 15
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [103.31698112, 51.44027633],
+        [85.09694531, 28.61248313],
+        [117.67829649, 39.96269492],
+        [86.96626771, 46.48807291]
+      ]
+    },
+    "properties": {
+      "id": "bad141fa-61fc-483c-b8c4-f502c99865fe",
+      "options": {
+        "theme": "brand",
+        "text": "边界线66",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [91.20931574, 30.30232439],
+          [93.11823638915685, 30.30232439],
+          [93.11823638915685, 32.21124503915685],
+          [91.20931574, 32.21124503915685],
+          [91.20931574, 30.30232439]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "9e3915fd-2ab5-44db-894d-b210f49ebcb6",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分67",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 11
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [99.18602641, 50.56285917, -459.5],
+      "radius": 199.71150864657102
+    },
+    "properties": {
+      "id": "b4ce5336-87ce-4567-933d-1c230508897d",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "68",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 24
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [97.81939279, 36.97286531, 60.8]
+    },
+    "properties": {
+      "id": "fa85cdf2-d102-4738-b6ee-a927d5bde443",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "兴趣点69",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "marker",
+        "relativeHeight": 8
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [90.89760181, 48.51379782],
+        [76.0756191, 24.5401782],
+        [80.31026549, 24.10946173],
+        [104.0739644, 22.81136899],
+        [102.44945206, 43.24592231]
+      ]
+    },
+    "properties": {
+      "id": "8061a779-e83b-4b46-bdc0-a0ca61c64ee2",
+      "options": {
+        "theme": "brand",
+        "text": "路径70",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [115.09030508, 43.50407143],
+          [115.68753013227047, 43.50407143],
+          [115.68753013227047, 44.10129648227048],
+          [115.09030508, 44.10129648227048],
+          [115.09030508, 43.50407143]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "d9902821-5bce-4125-b825-82d9d0cb2a4e",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "园区范围71",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 49
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [122.35922877, 31.73809481, 85.7],
+      "radius": 382.02321350324604
+    },
+    "properties": {
+      "id": "3ef88cc4-6513-40c1-a5db-b59bd76ba94e",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "72",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 13
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [98.31202286, 42.6403465, 418.6]
+    },
+    "properties": {
+      "id": "44fef969-c832-43b3-aa43-56bfd479ef0d",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记73",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "flag",
+        "relativeHeight": 17
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [122.40026303, 38.38212777],
+        [104.00171546, 49.86466646],
+        [120.51285875, 42.65968867],
+        [94.74483451, 32.68400967]
+      ]
+    },
+    "properties": {
+      "id": "6214ed37-ae61-4f1a-82f5-559dfaf2cad6",
+      "options": {
+        "theme": "brand",
+        "text": "边界线74",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [91.35183957, 19.96440402],
+          [92.76877666308874, 19.96440402],
+          [92.76877666308874, 21.381341113088755],
+          [91.35183957, 21.381341113088755],
+          [91.35183957, 19.96440402]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "18326cb2-fd9e-4a4a-a525-6b3d52fea529",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "行政区域75",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 43
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [85.71617457, 55.28203468, 279.3],
+      "radius": 422.28278654555396
+    },
+    "properties": {
+      "id": "9364b15e-3427-4a36-9144-de0620732c48",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "76",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 13
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [118.52157369, 50.72524111, -3.3]
+    },
+    "properties": {
+      "id": "9fbfe779-9359-4934-8fe7-bcf530798504",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记77",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "marker",
+        "relativeHeight": 14
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [119.36006336, 21.13165131],
+        [109.90836102, 53.42552308],
+        [103.09231299, 49.96092805]
+      ]
+    },
+    "properties": {
+      "id": "bf1bb267-620f-4b9f-ae34-00b06f813a8f",
+      "options": {
+        "theme": "brand",
+        "text": "次要道路78",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [120.19929116, 30.76727308],
+          [121.40993973937677, 30.76727308],
+          [121.40993973937677, 31.977921659376772],
+          [120.19929116, 31.977921659376772],
+          [120.19929116, 30.76727308]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "249297ce-c932-4a41-9eb4-f3b5135723d5",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "园区范围79",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 38
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [77.85306506, 52.77116112, -390.1],
+      "radius": 477.08817496697577
+    },
+    "properties": {
+      "id": "b030784e-8bc2-4922-8fd1-d29304b8c1fc",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "80",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 19
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [91.05968951, 47.41507482, -124.7]
+    },
+    "properties": {
+      "id": "937e1366-edf1-439c-a720-98c830548ffa",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记81",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 10
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [73.91946721, 51.61181261],
+        [120.61460648, 45.95905676],
+        [120.08044877, 22.47471228],
+        [93.97028397, 42.15182247],
+        [103.48659192, 26.97871447]
+      ]
+    },
+    "properties": {
+      "id": "b08c5f0c-07d4-4cf6-93e8-4f5094950b28",
+      "options": {
+        "theme": "brand",
+        "text": "边界线82",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [108.74007827, 44.81211411],
+          [109.84892386818366, 44.81211411],
+          [109.84892386818366, 45.920959708183666],
+          [108.74007827, 45.920959708183666],
+          [108.74007827, 44.81211411]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "71eabcc3-fdd9-424e-b386-b4a6eee212e8",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分83",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 39
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [98.73051925, 22.03876623, 185],
+      "radius": 252.27269380455363
+    },
+    "properties": {
+      "id": "69199669-5b2e-4316-ad1c-9e0510908703",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "84",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 39
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [97.75117504, 40.22665342, 6.5]
+    },
+    "properties": {
+      "id": "1129f765-57e3-4afd-9a4b-aaf40710509e",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记85",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "marker",
+        "relativeHeight": 8
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [119.79354418, 36.51740488],
+        [110.08587802, 34.76575105],
+        [114.96248368, 45.51806575],
+        [89.85050404, 24.31975638],
+        [95.04570519, 54.68524617]
+      ]
+    },
+    "properties": {
+      "id": "f95fcd90-34a8-4925-9acd-b58f8988442b",
+      "options": {
+        "theme": "brand",
+        "text": "路径86",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.375835, 28.72047109],
+          [79.77747444954197, 28.72047109],
+          [79.77747444954197, 31.122110539541968],
+          [77.375835, 31.122110539541968],
+          [77.375835, 28.72047109]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "a454f9f1-8e6c-43fe-ace2-72fbbbece1b6",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "行政区域87",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 15
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [98.55015316, 20.67921967, 100.9],
+      "radius": 122.57311465240667
+    },
+    "properties": {
+      "id": "9ec289b4-b8cf-419e-a2b7-eed38729f148",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "88",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 36
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [122.79261587, 46.28343416, -261.3]
+    },
+    "properties": {
+      "id": "3ff5ef9d-a5f1-42bc-8fc2-9fb1a1bcba14",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "兴趣点89",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 6
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [109.44415636, 43.84987956],
+        [88.88793861, 32.65647359],
+        [91.98122486, 24.45586712],
+        [98.41263408, 52.17372044],
+        [90.21062614, 56.78117065]
+      ]
+    },
+    "properties": {
+      "id": "50c3289f-b65c-43f2-96df-949640ff6788",
+      "options": {
+        "theme": "brand",
+        "text": "次要道路90",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [76.38038156, 52.74856427],
+          [78.58830938282847, 52.74856427],
+          [78.58830938282847, 54.95649209282847],
+          [76.38038156, 54.95649209282847],
+          [76.38038156, 52.74856427]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "c15f13f7-f8d0-41fa-8543-9743befaaf37",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块91",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 42
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [78.24761, 22.54056797, 258.2],
+      "radius": 190.65970873773426
+    },
+    "properties": {
+      "id": "3a5b1a7b-d884-4c37-ac73-a0d4e44ae9c1",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "92",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 13
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [120.60740116, 47.57391337, 213.9]
+    },
+    "properties": {
+      "id": "bc0bf9c6-44cb-40a6-95b8-d8be33a56e86",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "设施点93",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "marker",
+        "relativeHeight": 11
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [94.34220195, 36.50211055],
+        [96.28250628, 38.56992881],
+        [88.86044447, 50.24171042],
+        [84.80774955, 24.40673858],
+        [111.14081018, 53.81653496]
+      ]
+    },
+    "properties": {
+      "id": "c0c59b25-24cd-4371-8b46-ca5c6077d91e",
+      "options": {
+        "theme": "brand",
+        "text": "次要道路94",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [85.72153461, 52.07809173],
+          [87.75558018214181, 52.07809173],
+          [87.75558018214181, 54.112137302141804],
+          [85.72153461, 54.112137302141804],
+          [85.72153461, 52.07809173]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "000a9ad9-1e46-4034-9c36-96ba1c8bacd8",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分95",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 44
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [114.86177296, 23.59842509, -115.3],
+      "radius": 168.40211943125655
+    },
+    "properties": {
+      "id": "f368c733-ecfa-4787-b443-0c619f29ed02",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "96",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 41
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [113.94976878, 52.29648175, -45.2]
+    },
+    "properties": {
+      "id": "c4606e39-7e43-4ca7-8f37-6247ce362349",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记97",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "marker",
+        "relativeHeight": 17
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [81.4008646, 25.17765047],
+        [99.24123507, 50.74172976],
+        [101.56730733, 44.30627035],
+        [92.69503534, 22.48764918]
+      ]
+    },
+    "properties": {
+      "id": "c67d4adf-6c01-4606-90f9-932c82d1c95a",
+      "options": {
+        "theme": "brand",
+        "text": "路径98",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [121.30237239, 50.15923262],
+          [123.08528795515382, 50.15923262],
+          [123.08528795515382, 51.94214818515381],
+          [121.30237239, 51.94214818515381],
+          [121.30237239, 50.15923262]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "71875dd9-32cd-4f87-9791-2c384b27ae70",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块99",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 44
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [82.55737519, 21.50660442, -466.2],
+      "radius": 404.24231819623856
+    },
+    "properties": {
+      "id": "4c840fdf-0519-486d-beb8-5965d78f2e40",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "100",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 21
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [89.38308409, 26.95819904, -415.2]
+    },
+    "properties": {
+      "id": "0bc09c87-dcdb-44bf-ba6d-e16f9a1c5eee",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记1",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "pin",
+        "relativeHeight": 19
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [95.63997747, 43.92970172],
+        [77.89045932, 38.02923463],
+        [121.48384123, 19.89628713]
+      ]
+    },
+    "properties": {
+      "id": "b50f34b2-6d43-4734-aedb-df8479fe9482",
+      "options": {
+        "theme": "brand",
+        "text": "边界线2",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [82.72331288, 39.86512845],
+          [83.63440851974352, 39.86512845],
+          [83.63440851974352, 40.77622408974352],
+          [82.72331288, 40.77622408974352],
+          [82.72331288, 39.86512845]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "feb0a217-0eba-47b2-9174-f85ce9838215",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块3",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 12
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [78.91004002, 18.77403796, -142.7],
+      "radius": 160.9839663875693
+    },
+    "properties": {
+      "id": "f91116de-e49e-4a2a-bbf0-4527b4870799",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "4",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 40
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [79.72860166, 55.03468274, -73]
+    },
+    "properties": {
+      "id": "f76c11c9-9408-4515-838b-ac48a7b734f1",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "设施点5",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 17
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [96.87850899, 38.75172368],
+        [77.67629902, 56.30260644],
+        [88.32217509, 53.62516819]
+      ]
+    },
+    "properties": {
+      "id": "266a8dc0-42cd-4245-9129-45b2867272ba",
+      "options": {
+        "theme": "brand",
+        "text": "路径6",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [73.51219061, 22.43100723],
+          [74.04163135221414, 22.43100723],
+          [74.04163135221414, 22.96044797221413],
+          [73.51219061, 22.96044797221413],
+          [73.51219061, 22.43100723]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "ed7e44c1-6a88-418e-ab73-e6ebc7f71c7d",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "行政区域7",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 21
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [111.22025263, 30.2080971, -223.7],
+      "radius": 499.7903807565569
+    },
+    "properties": {
+      "id": "e5a840b9-90cc-4577-af78-db0db065c480",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "8",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 17
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [112.20894308, 51.41794394, -87.6]
+    },
+    "properties": {
+      "id": "810b19d0-b657-43c6-923a-9f6bd9b043ed",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记9",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "marker",
+        "relativeHeight": 8
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [95.82177997, 26.75835496],
+        [81.41825292, 33.46512245],
+        [114.62609798, 52.20761083],
+        [80.54959271, 46.57609162]
+      ]
+    },
+    "properties": {
+      "id": "4bda80cd-c6ee-4439-98db-6b657387c34b",
+      "options": {
+        "theme": "brand",
+        "text": "主要道路10",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [110.19154696, 51.17576639],
+          [110.97615454166693, 51.17576639],
+          [110.97615454166693, 51.96037397166693],
+          [110.19154696, 51.96037397166693],
+          [110.19154696, 51.17576639]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "bee97215-3633-4514-8141-c2953c8e1637",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分11",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 47
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [113.63289196, 52.22716799, -418.2],
+      "radius": 280.1285141551042
+    },
+    "properties": {
+      "id": "6fabe360-7d5a-4ab6-bb4f-5225c483c747",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "12",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 31
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [114.90224271, 57.70991093, -186.1]
+    },
+    "properties": {
+      "id": "3214db56-d49c-4bd5-bd46-d3d0e76254ac",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记13",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 19
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [118.20160456, 24.06068956],
+        [88.91493299, 39.97099299],
+        [93.40692662, 32.04687765],
+        [107.50276829, 36.90549542]
+      ]
+    },
+    "properties": {
+      "id": "a9483f15-c89c-4d29-8cff-195e66802619",
+      "options": {
+        "theme": "brand",
+        "text": "次要道路14",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [121.7348629, 25.65711082],
+          [123.8833981828474, 25.65711082],
+          [123.8833981828474, 27.80564610284741],
+          [121.7348629, 27.80564610284741],
+          [121.7348629, 25.65711082]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "4a5d560b-9d24-4863-b699-a57e1609ae0b",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "园区范围15",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 34
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [89.3508526, 36.08128312, -388.9],
+      "radius": 131.49812144740918
+    },
+    "properties": {
+      "id": "596b2720-1682-4f7e-ba72-344ac6e5d05c",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "16",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 34
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [112.956891, 19.87181673, -360.3]
+    },
+    "properties": {
+      "id": "428ad34b-7271-4370-98f2-d7541378c7ba",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记17",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "pin",
+        "relativeHeight": 16
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [109.43222471, 18.57548905],
+        [110.03792171, 43.44617022],
+        [95.51459714, 27.16662744],
+        [107.24996938, 32.17051858]
+      ]
+    },
+    "properties": {
+      "id": "285d06a7-8922-4e5d-9514-f1a3bece9ec4",
+      "options": {
+        "theme": "brand",
+        "text": "次要道路18",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [86.2418654, 52.7679986],
+          [86.77343087895565, 52.7679986],
+          [86.77343087895565, 53.299564078955655],
+          [86.2418654, 53.299564078955655],
+          [86.2418654, 52.7679986]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "6bfff6aa-4b94-4e67-bc6b-3c27859dd97d",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块19",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 26
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [86.17501477, 42.42756505, 133.4],
+      "radius": 420.5512976912854
+    },
+    "properties": {
+      "id": "070b266d-7959-4e64-a3c9-419cba7006b6",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "20",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 19
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [88.4118231, 24.98823678, -364.4]
+    },
+    "properties": {
+      "id": "073332a6-ccee-4248-a057-626519fcba91",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "设施点21",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "pin",
+        "relativeHeight": 11
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [118.92402326, 20.2810479],
+        [120.97626658, 54.31252371],
+        [123.39392631, 42.51645727],
+        [93.10929953, 19.46154457]
+      ]
+    },
+    "properties": {
+      "id": "78ffa6b7-a4d2-49ba-b44a-01305ed7727f",
+      "options": {
+        "theme": "brand",
+        "text": "次要道路22",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [95.74022518, 22.0820905],
+          [96.38546673280096, 22.0820905],
+          [96.38546673280096, 22.727332052800964],
+          [95.74022518, 22.727332052800964],
+          [95.74022518, 22.0820905]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "a784b817-7696-4210-b51d-6109b4c7921c",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "行政区域23",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 26
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [108.42017082, 18.95087573, 95.6],
+      "radius": 241.7617687672956
+    },
+    "properties": {
+      "id": "659018e0-c696-4995-aba6-6a1b3452be6a",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "24",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 33
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [88.60111973, 48.06718032, 173.2]
+    },
+    "properties": {
+      "id": "684264c4-2cef-4884-814a-cb3bfda77d03",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记25",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 14
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [96.82844376, 57.16333314],
+        [99.77079907, 30.93982082],
+        [82.64164188, 28.00127352],
+        [93.13486651, 23.04185481],
+        [109.2689508, 23.93361451]
+      ]
+    },
+    "properties": {
+      "id": "bf10dae2-dc62-4892-96ea-d3a697d3fc8d",
+      "options": {
+        "theme": "brand",
+        "text": "次要道路26",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [99.48863511, 51.03539031],
+          [100.93794667248066, 51.03539031],
+          [100.93794667248066, 52.48470187248065],
+          [99.48863511, 52.48470187248065],
+          [99.48863511, 51.03539031]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "e208e7e8-e04f-4236-9195-afc1c9202ab8",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块27",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 10
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [108.42308858, 36.74510926, 114.2],
+      "radius": 340.54243326802896
+    },
+    "properties": {
+      "id": "60f085ad-f1f4-429a-9d8f-73be3687f629",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "28",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 24
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [83.92017195, 20.91867877, 351]
+    },
+    "properties": {
+      "id": "3ef488b6-01a0-4298-85dc-d1982e1e5496",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "设施点29",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "marker",
+        "relativeHeight": 19
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [89.63773121, 26.07067647],
+        [87.8854946, 28.78296167],
+        [106.11311859, 21.98342143],
+        [102.80046982, 47.78518359],
+        [93.15942357, 36.95910835]
+      ]
+    },
+    "properties": {
+      "id": "be6c322d-61e4-4755-87a5-c6a5db17d28c",
+      "options": {
+        "theme": "brand",
+        "text": "次要道路30",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [80.09122084, 57.6711968],
+          [82.17053703083545, 57.6711968],
+          [82.17053703083545, 59.750512990835446],
+          [80.09122084, 59.750512990835446],
+          [80.09122084, 57.6711968]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "89426d94-a1de-47b0-8edd-e3eb8e956766",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "园区范围31",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 36
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [110.93209624, 28.01386315, 291.5],
+      "radius": 469.22442446995495
+    },
+    "properties": {
+      "id": "974804f7-561a-48d7-83f0-b55bb18a8cba",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "32",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 43
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [119.13233208, 40.22731257, -118]
+    },
+    "properties": {
+      "id": "a2d3e037-a10d-47f7-8978-2725dc8ede22",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记33",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "pin",
+        "relativeHeight": 15
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [90.62527178, 26.55722767],
+        [118.99536518, 32.80542078],
+        [80.90020832, 25.03199679],
+        [97.05901427, 49.85334833],
+        [95.49180211, 49.7861087]
+      ]
+    },
+    "properties": {
+      "id": "9f19f43a-6b26-4555-82b6-fba1f7029e5c",
+      "options": {
+        "theme": "brand",
+        "text": "边界线34",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [90.66970196, 42.87423434],
+          [92.17242313770176, 42.87423434],
+          [92.17242313770176, 44.37695551770175],
+          [90.66970196, 44.37695551770175],
+          [90.66970196, 42.87423434]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "1d24dff9-caa0-472e-9994-78183f268f5e",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分35",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 18
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [82.68247844, 28.60256466, 142.5],
+      "radius": 219.92419574205204
+    },
+    "properties": {
+      "id": "a02b950e-ad22-4906-aeda-e785991afd89",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "36",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 14
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [107.1754787, 39.90424984, 7.9]
+    },
+    "properties": {
+      "id": "ebeecb00-cddc-44de-96f7-a2d974577960",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记37",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 17
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [108.07402972, 33.51431258],
+        [105.16970338, 29.35345078],
+        [93.7689919, 46.78083941],
+        [87.56792666, 29.10936907],
+        [99.75249892, 50.62165973]
+      ]
+    },
+    "properties": {
+      "id": "beedf6ca-ff8b-4180-a60f-c81187f92fd1",
+      "options": {
+        "theme": "brand",
+        "text": "主要道路38",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [106.9636038, 50.85901209],
+          [108.31447761067015, 50.85901209],
+          [108.31447761067015, 52.20988590067015],
+          [106.9636038, 52.20988590067015],
+          [106.9636038, 50.85901209]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "f5c4d26a-3b58-4ee3-aaa7-55ab5a50deca",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "行政区域39",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 27
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [103.80802401, 51.96225153, -153],
+      "radius": 466.02003198192546
+    },
+    "properties": {
+      "id": "a2c55b6d-d2fe-4f3e-9afd-3fb04712cf21",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "40",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 17
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [93.69484112, 54.00789152, 367.5]
+    },
+    "properties": {
+      "id": "15623023-b0ab-4fb6-9266-ed09871908da",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记41",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 9
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [118.79396993, 42.19803105],
+        [118.24195888, 43.46794023],
+        [103.00634327, 41.69361767],
+        [74.56716757, 45.42364515]
+      ]
+    },
+    "properties": {
+      "id": "7ed5dee3-aeb3-485a-b262-ea3a3a915520",
+      "options": {
+        "theme": "brand",
+        "text": "边界线42",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [103.40360947, 53.30217378],
+          [104.03731538115045, 53.30217378],
+          [104.03731538115045, 53.93587969115044],
+          [103.40360947, 53.93587969115044],
+          [103.40360947, 53.30217378]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "543ee091-bca4-4385-9d95-c568faee724b",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分43",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 35
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [78.47882642, 23.96634131, 175.2],
+      "radius": 267.81362921405884
+    },
+    "properties": {
+      "id": "e171a84c-620d-4697-9d86-0dee7fec3e24",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "44",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 44
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [119.0653991, 18.5206157, -120.2]
+    },
+    "properties": {
+      "id": "4b0a5454-17f1-4c20-bcb1-a17f48211d6e",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记45",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "marker",
+        "relativeHeight": 14
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [73.86828447, 21.34768496],
+        [81.53307125, 35.52367888],
+        [82.49566127, 28.08046966],
+        [104.01345543, 37.06181058]
+      ]
+    },
+    "properties": {
+      "id": "501d50c8-3e93-4958-a5a5-896dcf217dc7",
+      "options": {
+        "theme": "brand",
+        "text": "边界线46",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [105.02677221, 34.35907274],
+          [106.81990636280602, 34.35907274],
+          [106.81990636280602, 36.15220689280603],
+          [105.02677221, 36.15220689280603],
+          [105.02677221, 34.35907274]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "044e9296-b4ec-4833-a40b-8f03774f3867",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分47",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 22
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [120.03830742, 35.35490189, -391.1],
+      "radius": 159.1177614592042
+    },
+    "properties": {
+      "id": "a8fdd698-972b-4280-ae94-f0f9e0ed9a83",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "48",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 37
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [98.37571488, 36.23361213, 80.9]
+    },
+    "properties": {
+      "id": "5d5c38c3-29aa-495e-9a7e-ebcf1c49a789",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "兴趣点49",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 12
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [84.02386788, 43.31048907],
+        [83.88573365, 45.57316065],
+        [118.49082913, 38.52369904],
+        [110.91629918, 24.93678368],
+        [117.42174624, 40.04613979]
+      ]
+    },
+    "properties": {
+      "id": "44ca0c41-74a1-48b1-a137-311a93095fa9",
+      "options": {
+        "theme": "brand",
+        "text": "主要道路50",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [78.10863573, 35.09453037],
+          [80.06193481354302, 35.09453037],
+          [80.06193481354302, 37.04782945354301],
+          [78.10863573, 37.04782945354301],
+          [78.10863573, 35.09453037]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "5e9f15e9-a171-4a7e-95e2-11b980727f07",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块51",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 12
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [90.46906353, 38.74089896, 294.8],
+      "radius": 205.03297094077323
+    },
+    "properties": {
+      "id": "b12b9f28-da51-4864-b72d-2b5af1ed5c31",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "52",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 33
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [119.65945107, 39.62232841, -257.1]
+    },
+    "properties": {
+      "id": "985ba3ec-df2e-43d8-842f-b3fac5fc24a8",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记53",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 10
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [89.75873195, 22.78026599],
+        [98.2024175, 21.5118483],
+        [121.86756202, 40.22412471]
+      ]
+    },
+    "properties": {
+      "id": "6cdef49d-6835-41f9-ab39-6c41832c5f2e",
+      "options": {
+        "theme": "brand",
+        "text": "边界线54",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [85.82631539, 24.98313585],
+          [88.1423437660318, 24.98313585],
+          [88.1423437660318, 27.2991642260318],
+          [85.82631539, 27.2991642260318],
+          [85.82631539, 24.98313585]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "227af761-defc-4220-a7d3-b2ce5824291c",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分55",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 28
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [108.55454914, 57.42193895, -154.6],
+      "radius": 194.83044605527346
+    },
+    "properties": {
+      "id": "8d3953f4-dcfb-4458-870a-59a7efffc058",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "56",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 11
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [118.90993502, 22.46322587, 386.4]
+    },
+    "properties": {
+      "id": "e118bd3d-a01f-4335-9a3d-b0fd5ad67ebb",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "兴趣点57",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 17
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [80.94964985, 52.57075602],
+        [104.00538536, 41.96804394],
+        [111.26573097, 26.09254126],
+        [105.53643541, 50.734466],
+        [98.08527255, 41.80326661]
+      ]
+    },
+    "properties": {
+      "id": "c9620757-2530-4baf-94a9-6c2115a0d21c",
+      "options": {
+        "theme": "brand",
+        "text": "主要道路58",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [116.72556891, 36.33601053],
+          [118.83839870578983, 36.33601053],
+          [118.83839870578983, 38.44884032578983],
+          [116.72556891, 38.44884032578983],
+          [116.72556891, 36.33601053]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "4c86b597-8f1c-4966-bf73-bbfac7608f0d",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "园区范围59",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 30
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [101.31166653, 47.08041294, -304.1],
+      "radius": 294.0393425674836
+    },
+    "properties": {
+      "id": "909c8ce4-cb89-40d1-a513-cebc9a5be17a",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "60",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 12
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [85.9975574, 57.80735936, -467]
+    },
+    "properties": {
+      "id": "74ae5d88-ef00-484a-856d-2ac5f3163299",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "兴趣点61",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "flag",
+        "relativeHeight": 17
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [91.54562634, 52.17635921],
+        [97.67308081, 43.53000694],
+        [86.71438615, 28.45934191],
+        [90.95006648, 27.50116706]
+      ]
+    },
+    "properties": {
+      "id": "3236b247-3581-4cec-ae0e-b3b271f1dec3",
+      "options": {
+        "theme": "brand",
+        "text": "次要道路62",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [87.61838483, 23.2529725],
+          [90.0054469069756, 23.2529725],
+          [90.0054469069756, 25.6400345769756],
+          [87.61838483, 25.6400345769756],
+          [87.61838483, 23.2529725]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "8b19c793-76ef-4faf-a050-21066ca136c5",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块63",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 25
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [87.94766195, 50.3353974, 124],
+      "radius": 119.30171793207656
+    },
+    "properties": {
+      "id": "85b6ed7e-c78e-47bc-8b33-a95740a1ebed",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "64",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 37
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [121.65649733, 44.32321952, -107.5]
+    },
+    "properties": {
+      "id": "1bb29bac-d124-485b-9e09-867e126a6606",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记65",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "pin",
+        "relativeHeight": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [79.82068729, 39.39983015],
+        [74.4985592, 38.17625323],
+        [94.37896048, 40.78656178]
+      ]
+    },
+    "properties": {
+      "id": "3a224de5-ef5c-4b58-bb47-abf4713886b5",
+      "options": {
+        "theme": "brand",
+        "text": "路径66",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [103.25883961, 46.98739395],
+          [105.01223993799469, 46.98739395],
+          [105.01223993799469, 48.7407942779947],
+          [103.25883961, 48.7407942779947],
+          [103.25883961, 46.98739395]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "66127155-d7d4-479c-bfb2-97d05c78cd7e",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分67",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 19
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [103.69618239, 32.46047887, 493.1],
+      "radius": 103.68126051848816
+    },
+    "properties": {
+      "id": "17230cb9-3a6a-40f6-95e3-b8834583badf",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "68",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 10
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [94.31774652, 57.64250027, -447.6]
+    },
+    "properties": {
+      "id": "11375a6c-3488-4a6d-9425-7f1bf931ab64",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "兴趣点69",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 16
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [112.85665224, 37.7185127],
+        [97.85142071, 34.3291187],
+        [120.67601341, 30.692726],
+        [114.33895289, 52.39019135]
+      ]
+    },
+    "properties": {
+      "id": "2b619b01-e2ba-4f99-8af0-79c35a9165af",
+      "options": {
+        "theme": "brand",
+        "text": "次要道路70",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [99.33416427, 25.19978528],
+          [100.89948596048599, 25.19978528],
+          [100.89948596048599, 26.76510697048599],
+          [99.33416427, 26.76510697048599],
+          [99.33416427, 25.19978528]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "2abc388a-e466-4b12-94c8-c248c16f0a5a",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块71",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 32
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [122.96889307, 55.62062879, 208.8],
+      "radius": 305.1624191893251
+    },
+    "properties": {
+      "id": "7830b94e-0067-4f74-aafb-7b75e4919e4b",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "72",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 37
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [75.00828737, 36.12187762, 17.9]
+    },
+    "properties": {
+      "id": "a0b8bc0b-901c-40e7-9761-d19f9c9c46e4",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记73",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "flag",
+        "relativeHeight": 13
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [111.30343694, 47.35268546],
+        [118.8178667, 57.95802949],
+        [100.90383573, 31.1835037]
+      ]
+    },
+    "properties": {
+      "id": "5d5e3333-4aa3-4bb1-8f3f-2f1a5d3fc144",
+      "options": {
+        "theme": "brand",
+        "text": "边界线74",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [116.06097207, 43.43766951],
+          [118.0675197026829, 43.43766951],
+          [118.0675197026829, 45.444217142682895],
+          [116.06097207, 45.444217142682895],
+          [116.06097207, 43.43766951]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "64fbe5ca-1c91-4a1c-ae1f-3ff7cc78f5c5",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "园区范围75",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 40
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [96.88212559, 36.93694565, 120.1],
+      "radius": 405.2359649614861
+    },
+    "properties": {
+      "id": "5ad2a754-b42f-49d2-88ce-3c1044cac495",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "76",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 25
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [89.81415629, 23.69564771, -88.3]
+    },
+    "properties": {
+      "id": "bc8622e8-bc7e-4b9a-a6c6-2121af3baff9",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "设施点77",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "flag",
+        "relativeHeight": 17
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [119.84033458, 18.80622484],
+        [95.30585696, 25.68893028],
+        [107.34108412, 25.62577903],
+        [108.89244727, 57.01270678]
+      ]
+    },
+    "properties": {
+      "id": "2a5f5e67-c599-46e4-9d8e-1cd9bbcb8568",
+      "options": {
+        "theme": "brand",
+        "text": "主要道路78",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [79.3344487, 41.92234158],
+          [80.71074605636862, 41.92234158],
+          [80.71074605636862, 43.29863893636863],
+          [79.3344487, 43.29863893636863],
+          [79.3344487, 41.92234158]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "1885ea37-e751-4891-89fd-e70530818a32",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "园区范围79",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 24
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [83.11783608, 21.06010002, -408.2],
+      "radius": 291.3365123072939
+    },
+    "properties": {
+      "id": "b46635c8-fb58-4654-91b0-8137cc96d045",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "80",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 18
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [111.31897361, 46.2709752, 349.8]
+    },
+    "properties": {
+      "id": "e1f8f7ad-502d-4461-be41-7bb7da917864",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "兴趣点81",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "marker",
+        "relativeHeight": 19
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [75.04059347, 51.00818032],
+        [109.11704368, 55.15305998],
+        [76.61228803, 49.31064142],
+        [94.383831, 31.0158899],
+        [95.13028204, 48.09506077]
+      ]
+    },
+    "properties": {
+      "id": "32a5539a-b5fe-4d73-960a-f8d6f43addd1",
+      "options": {
+        "theme": "brand",
+        "text": "边界线82",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [119.73552642, 53.67190688],
+          [121.45654199417952, 53.67190688],
+          [121.45654199417952, 55.39292245417952],
+          [119.73552642, 55.39292245417952],
+          [119.73552642, 53.67190688]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "be8de655-fbcf-466b-9288-7fbe9eaa9db8",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "园区范围83",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 25
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [118.62011659, 56.45133276, 427.4],
+      "radius": 412.3707228467087
+    },
+    "properties": {
+      "id": "2f8906ab-0d56-4060-800c-27963d58a36e",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "84",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 36
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [84.30588456, 23.97479299, 328.2]
+    },
+    "properties": {
+      "id": "49e30fc8-7635-4a5e-ab54-fc3067aeaf5f",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记85",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "pin",
+        "relativeHeight": 17
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [112.11371959, 32.0917863],
+        [102.51219224, 21.44638058],
+        [75.18810668, 50.04733652],
+        [81.50829627, 38.30025671]
+      ]
+    },
+    "properties": {
+      "id": "4bd09da2-0a8b-44b1-940a-321b61d1e112",
+      "options": {
+        "theme": "brand",
+        "text": "主要道路86",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [88.08321258, 38.49939402],
+          [90.51463352986411, 38.49939402],
+          [90.51463352986411, 40.930814969864116],
+          [88.08321258, 40.930814969864116],
+          [88.08321258, 38.49939402]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "cb588968-ef87-478c-a40b-a21846d92635",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块87",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 48
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [93.36967247, 55.45659495, -104.6],
+      "radius": 353.2431678044142
+    },
+    "properties": {
+      "id": "254c71f6-e765-46d5-83d6-2a1a3104fd7c",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "88",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 45
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [107.49702931, 41.03815559, -463]
+    },
+    "properties": {
+      "id": "b86b60ce-7bc5-4198-bcc2-55c3ef8d75f5",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "POI标记89",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 15
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [79.88336628, 33.86820061],
+        [96.29060382, 23.78461924],
+        [93.60485028, 51.10707507],
+        [78.38124824, 31.94443999]
+      ]
+    },
+    "properties": {
+      "id": "b30393e5-629b-4bff-a089-8cad04bdd185",
+      "options": {
+        "theme": "brand",
+        "text": "次要道路90",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [85.3196102, 38.61450105],
+          [86.16803699596676, 38.61450105],
+          [86.16803699596676, 39.46292784596675],
+          [85.3196102, 39.46292784596675],
+          [85.3196102, 38.61450105]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "71e1e527-021a-4215-beb2-a9b0018c384e",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块91",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 28
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [113.413184, 36.51595979, -257.5],
+      "radius": 330.20881931330615
+    },
+    "properties": {
+      "id": "2a5b0524-8e84-46e1-bfad-d4df6e29dd58",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "92",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 16
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [121.51219979, 27.01002473, -143]
+    },
+    "properties": {
+      "id": "565ca77e-70a0-47e0-a1e6-36490e195f6e",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "兴趣点93",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "flag",
+        "relativeHeight": 14
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [120.34746482, 34.60500692],
+        [78.38097491, 44.49080976],
+        [85.57853745, 34.39549525],
+        [107.89005173, 55.35579427],
+        [91.48337845, 40.14289837]
+      ]
+    },
+    "properties": {
+      "id": "b5f9a7ea-0e90-4a2a-80d7-1368638c4cf3",
+      "options": {
+        "theme": "brand",
+        "text": "次要道路94",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [109.99304249, 50.84379719],
+          [111.93458048591484, 50.84379719],
+          [111.93458048591484, 52.78533518591484],
+          [109.99304249, 52.78533518591484],
+          [109.99304249, 50.84379719]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "4e80f914-c3f3-4992-b672-490508af643b",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "行政区域95",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 30
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [85.11602874, 32.79280577, -50],
+      "radius": 276.62007149061253
+    },
+    "properties": {
+      "id": "4683e815-d212-4c7d-baf4-d619f4dd7255",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "96",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5,
+        "fillOpacity": 24
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [120.52376548, 20.62971694, -103.3]
+    },
+    "properties": {
+      "id": "6ba37aa0-3f6c-4eb7-8dd6-a5554f9e9137",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "位置标记97",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "flag",
+        "relativeHeight": 12
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [110.87598893, 47.56704698],
+        [81.29816099, 38.83562568],
+        [77.39685786, 35.71110398]
+      ]
+    },
+    "properties": {
+      "id": "d0378075-3a5c-46ea-9ab2-6aed3c069175",
+      "options": {
+        "theme": "brand",
+        "text": "边界线98",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [115.42892677, 18.33850536],
+          [117.91151605218926, 18.33850536],
+          [117.91151605218926, 20.82109464218925],
+          [115.42892677, 20.82109464218925],
+          [115.42892677, 18.33850536]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "bfae1fa2-fc46-4f3d-a088-a2e7fd310019",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块99",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 12
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [88.67122068, 56.24574849, 424.2],
+      "radius": 196.49587377353836
+    },
+    "properties": {
+      "id": "36bba4ea-426d-462e-8583-2be8f5080047",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "100",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 40
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [116.53772539, 21.81313817, 452]
+    },
+    "properties": {
+      "id": "8718d060-abe1-4bb8-9180-a439f981323c",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "设施点1",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "marker",
+        "relativeHeight": 14
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [105.26136674, 36.56771932],
+        [115.49344411, 30.09211783],
+        [83.63719442, 32.32375475],
+        [122.87542622, 38.13789272],
+        [106.59350996, 42.46369517]
+      ]
+    },
+    "properties": {
+      "id": "2fbbdc6b-70e5-4fd6-859d-1fd05dcf4bb2",
+      "options": {
+        "theme": "brand",
+        "text": "路径2",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [80.81076313, 32.6556244],
+          [82.22045627008508, 32.6556244],
+          [82.22045627008508, 34.06531754008508],
+          [80.81076313, 34.06531754008508],
+          [80.81076313, 32.6556244]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "d3f6137f-b08b-4029-b7a4-6e94e2db8769",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块3",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 16
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [79.34421325, 36.20060792, 142.8],
+      "radius": 428.6304001949348
+    },
+    "properties": {
+      "id": "4c1a81b6-0093-4757-be58-b6741c215114",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "4",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 46
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [78.47122253, 24.46471117, 153.5]
+    },
+    "properties": {
+      "id": "cf2f90c4-d236-4698-baf3-92eb9ce3c4a0",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "设施点5",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "flag",
+        "relativeHeight": 13
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [78.65379695, 29.97489198],
+        [86.97173238, 29.28715337],
+        [90.7268127, 26.06191877],
+        [117.81762035, 46.65858735]
+      ]
+    },
+    "properties": {
+      "id": "a54a5442-28f2-4f90-8cf2-8eb2eb55f21b",
+      "options": {
+        "theme": "brand",
+        "text": "路径6",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 5
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [101.49339385, 38.40695715],
+          [102.87018515732595, 38.40695715],
+          [102.87018515732595, 39.78374845732594],
+          [101.49339385, 39.78374845732594],
+          [101.49339385, 38.40695715]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "90170393-3e30-4d68-b0d0-6344eaa6e6c6",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "区域划分7",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 30
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [83.56171598, 26.64639218, 117.9],
+      "radius": 257.9568290017038
+    },
+    "properties": {
+      "id": "96d0bf64-8c7b-4d2d-94ff-3b7812c2aa3d",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "8",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 3,
+        "fillOpacity": 44
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [90.01586862, 52.07324232, 259.4]
+    },
+    "properties": {
+      "id": "59ae9f14-2ec5-444b-9428-14b63732a5f5",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "兴趣点9",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 8
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [104.19479807, 33.48018746],
+        [95.97408729, 39.3117874],
+        [115.84428242, 32.58169663],
+        [122.62302588, 52.83056866]
+      ]
+    },
+    "properties": {
+      "id": "eca52311-4a2c-41f8-9b8d-be60fd5f032c",
+      "options": {
+        "theme": "brand",
+        "text": "主要道路10",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [90.19337645, 31.46540018],
+          [91.87228814154737, 31.46540018],
+          [91.87228814154737, 33.144311871547366],
+          [90.19337645, 33.144311871547366],
+          [90.19337645, 31.46540018]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "443ea5af-b2d8-4a3a-916e-1dc35b15b84a",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "行政区域11",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 2,
+        "fillOpacity": 31
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [97.03704948, 48.18814899, 55.5],
+      "radius": 183.85455509218306
+    },
+    "properties": {
+      "id": "364222b7-52a4-4856-9f26-a7489e4c33d0",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "12",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 37
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [101.18629529, 56.3363548, 171.9]
+    },
+    "properties": {
+      "id": "f0a39b21-59db-4b43-9c26-dd0fdabde132",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "设施点13",
+        "textSize": 14,
+        "visible": true,
+        "iconSize": 32,
+        "iconName": "location",
+        "relativeHeight": 15
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [96.99445373, 32.07900997],
+        [114.86987879, 45.40624952],
+        [115.45829011, 42.30238133]
+      ]
+    },
+    "properties": {
+      "id": "72bc5723-f3d5-4f41-ae31-7a43fa3d9412",
+      "options": {
+        "theme": "brand",
+        "text": "边界线14",
+        "textSize": 12,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4
+      }
+    }
+  },
+  {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [121.93879234, 47.29593408],
+          [123.90222168644125, 47.29593408],
+          [123.90222168644125, 49.25936342644124],
+          [121.93879234, 49.25936342644124],
+          [121.93879234, 47.29593408]
+        ]
+      ]
+    },
+    "properties": {
+      "id": "491f3a72-8eda-471c-bf59-ddf9bcc45c7b",
+      "options": {
+        "textBackgroundShape": "circle",
+        "theme": "brand",
+        "text": "地块15",
+        "textSize": 14,
+        "visible": true,
+        "strokeType": "solid",
+        "strokeWidth": 4,
+        "fillOpacity": 19
+      }
+    }
+  }
+]

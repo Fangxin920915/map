@@ -1,0 +1,4 @@
+packages:
+  - build
+  - apps/*
+  - packages/*

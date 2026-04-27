@@ -1,0 +1,49 @@
+{
+  "name": "@gdu-gl/common",
+  "version": "0.1.9",
+  "description": "",
+  "keywords": [
+    "vue",
+    "component library"
+  ],
+  "publishConfig": {
+    "registry": "http://118.31.69.113:4873/"
+  },
+  "author": "Gdu",
+  "license": "MIT",
+  "scripts": {
+    "build:package": "vite build --mode package",
+    "build:full": "vite build --mode full",
+    "build:full-min": "vite build --mode full-min",
+    "build": "vue-tsc -p ./tsconfig.build.json --composite false --declaration --emitDeclarationOnly && tsc-alias -p ./tsconfig.build.json && pnpm run build:package"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "peerDependencies": {
+    "@turf/turf": "7.2.0",
+    "cesium": "1.138.0"
+  },
+  "dependencies": {
+    "@math.gl/geoid": "^4.1.0",
+    "uuid": "^11.1.0"
+  },
+  "unpkg": "./dist/lib/gdu-gl-common.umd.js",
+  "jsdelivr": "./dist/lib/gdu-gl-common.umd.js",
+  "types": "./dist/es/index.d.ts",
+  "main": "./dist/umd/gdu-gl-common.umd.js",
+  "module": "./dist/es/index.mjs",
+  "exports": {
+    ".": {
+      "types": "./dist/es/index.d.ts",
+      "require": "./dist/umd/gdu-gl-common.umd.js",
+      "import": "./dist/es/index.mjs"
+    },
+    "./*": "./dist/es/*"
+  },
+  "sideEffects": [
+    "**/*.css"
+  ]
+}

@@ -153,7 +153,7 @@ export default class ARScene implements ARSceneImp {
   globeSetting() {
     if (this._viewer.isDestroyed()) return;
     this._viewer.imageryLayers.removeAll();
-    const mapboxAccessToken = process.env.MAPBOX_ACCESS_TOKEN;
+    const mapboxAccessToken = "";
 
     // mapbox://styles/gongruiqiang/cm48dyqo7019101r21n5k5xzs
     // mapbox://styles/gdu/cmhmw8l1x001w01sc1klf27om
